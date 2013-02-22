@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  To change this template, choose Tools | Templates
+  and open the template in the editor.
+-->
+
+<!--
+  Document   : Tweet!.bml.bml
+  Created on : 12.10.2012, 12:30:30
+  Author     : tnikolay
+  Description:
+       Purpose of the page follows.
+-->
+
+<page paging="true" nocache="false" rifoptimize="false" output-encoding="UTF-8">
+    <container>
+        <column>
+            <TEXT>
+                <richtext id="tweet">Tweet!</richtext>
+            </TEXT>
+        </column>
+    </container>
+    
+    <external file="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="script"/>
+    <external file="jquery.tweet.js" type="script"/>
+
+    <script>
+        <preserve>
+      <![CDATA[
+
+    jQuery(function($){
+        $("#tweet").tweet({
+            username: "CBS",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 10,
+            auto_join_text_default: "we said,",
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied to",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        });
+    });
+]]>
+        </preserve>
+    </script>
+
+</page>
