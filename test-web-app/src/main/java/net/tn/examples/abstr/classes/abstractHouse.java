@@ -11,7 +11,6 @@ package net.tn.examples.abstr.classes;
  */
 public abstract class abstractHouse {
 
-    private final int intialSquareMeter = 0;
     protected String housename="";
 
     public abstract int calculateSquareMeter();

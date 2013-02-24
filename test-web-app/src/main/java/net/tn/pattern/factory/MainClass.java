@@ -21,8 +21,9 @@ public class MainClass {
         try{
          input = CarFactory.CarClasses.valueOf(args[0]);
         }catch(IllegalArgumentException e){
-            System.out.println("please give a correct carClasses: "+CarFactory.CarClasses.values());
+            System.out.println("please give a correct carClasses: ");
             e.printStackTrace();
+            return;
         }
 
         Car car = new Car(Car.Manufacturer.Audi, Car.Color.red, 120);
@@ -37,7 +38,9 @@ public class MainClass {
         if(input != null){
         car = CarFactory.getCar(input);
         System.out.println(car);
+        return;
         }
+        
     }
 
 

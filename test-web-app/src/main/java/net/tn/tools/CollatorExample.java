@@ -20,9 +20,4 @@ public class CollatorExample {
         System.out.println(col.compare("Quaken", "Quäken"));
     }
 
-
-    private boolean sort(){
-        return true;
-    }
-
 }

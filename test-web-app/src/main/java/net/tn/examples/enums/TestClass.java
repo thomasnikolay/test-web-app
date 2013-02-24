@@ -9,7 +9,6 @@ public class TestClass {
     public static void main(String[] args) {
         WeekDays wd = null;
         try {
-            String test = "";
             wd = WeekDays.valueOf("Montag");
         } catch (IllegalArgumentException e) {
             System.out.println("Fehler in der Zuweisung!");
@@ -18,13 +17,13 @@ public class TestClass {
         if (wd != null) {
             switch (wd) {
                 case Dienstag:
-                    System.out.println(wd.Dienstag);
+                    System.out.println(WeekDays.Dienstag);
                     break;
                 case Mittwoch:
-                    System.out.println(wd.Mittwoch);
+                    System.out.println(WeekDays.Mittwoch);
                     break;
                 case Montag:
-                    System.out.println(wd.Montag);
+                    System.out.println(WeekDays.Montag);
                     break;
                 default:
                     System.out.println("Default");

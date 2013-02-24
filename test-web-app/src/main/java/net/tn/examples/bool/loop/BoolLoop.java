@@ -11,7 +11,6 @@ package net.tn.examples.bool.loop;
 public class BoolLoop {
 
     public static void main(String[] args) {
-        boolean[] boolArray = {true};
         String[] stringArray = {"montag", "dienstag", "mittwoch", "donnerstag"};
 
         for (String string : stringArray) {

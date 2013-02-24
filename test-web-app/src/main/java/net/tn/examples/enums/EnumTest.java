@@ -20,11 +20,11 @@ public class EnumTest {
 
         if(wd!=null){
         switch(wd){
-            case Dienstag:System.out.println(wd.Dienstag);
+            case Dienstag:System.out.println(WeekDays.Dienstag);
             break;
-            case Mittwoch:System.out.println(wd.Mittwoch);
+            case Mittwoch:System.out.println(WeekDays.Mittwoch);
             break;
-            case Montag:System.out.println(wd.Montag);
+            case Montag:System.out.println(WeekDays.Montag);
             break;
             default:System.out.println("Default");
             break;

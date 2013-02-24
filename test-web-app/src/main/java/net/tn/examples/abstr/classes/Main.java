@@ -15,6 +15,5 @@ public class Main {
         System.out.println(realClass.tueDies());
         System.out.println(Abstract.tueDies());
         System.out.println(rc.tueSonstwas());
-        Abstract[] absArray = {new realClass(), new secondRealClass()};
     }
 }

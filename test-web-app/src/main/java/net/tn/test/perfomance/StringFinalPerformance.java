@@ -40,8 +40,9 @@ public class StringFinalPerformance {
         list.add("value1");
         list.add("value2");
         list.add("value3");
-
-        String result = "";
+        
+        StringFinalPerformance sfp = new StringFinalPerformance();
+        sfp.bullshit();
         
        Set<String> set = new HashSet<String>();
        set.addAll(list);

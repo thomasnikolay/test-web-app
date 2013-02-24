@@ -66,6 +66,7 @@ public class LottoNumberGenerator {
                     }
                 }
             }
+            pw.close();
         } catch (FileNotFoundException e) {
             System.out.println(e);
         }
