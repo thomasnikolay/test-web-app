@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>
+      ZEIT ONLINE: ZEIT ONLINE Startseite</title>
+    <description/>
+    <pubDate>Wed, 24 Oct 2012 09:33:58 GMT</pubDate>
+    <lastBuildDate>Wed, 24 Oct 2012 11:34:34 +0200</lastBuildDate>
+    <language>de-de</language>
+    <link>http://www.zeit.de/index</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.zeit.de/index"/>
+    <copyright>Copyright (c) 2012, ZEIT ONLINE GmbH</copyright>
+    <docs>http://www.zeit.de/hilfe/rss</docs>
+    <generator>mod_xslt LePenguin</generator>
+    <managingEditor>wolfgang.blau@zeit.de (Wolfgang Blau)</managingEditor>
+    <webMaster>webmaster@zeit.de (Internettechnik ZEIT ONLINE)</webMaster>
+    <image>
+      <url>http://images.zeit.de/bilder/elemente_01_06/logos/homepage_top.gif</url>
+      <title>
+				  ZEIT ONLINE: ZEIT ONLINE Startseite</title>
+      <link>http://www.zeit.de/index</link>
+    </image>
+    <item>
+      <link>http://www.zeit.de/reisen/2012-10/City-Guide-Prag-Netz</link>
+      <guid>http://www.zeit.de/reisen/2012-10/City-Guide-Prag-Netz</guid>
+      <category>Reisen</category>
+      <title>City Guide Prag: Prags schönste Seiten im Netz</title>
+      <description>&lt;a href="http://www.zeit.de/reisen/2012-10/City-Guide-Prag-Netz"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/reisen/2012-10/prag/prag-148x84.jpg"/&gt;&lt;/a&gt; Erst klicken, dann reisen: Im Internet finden sich zahlreiche Seiten mit Reise- und Veranstaltungstipps für Prag. Wir stellen die besten für die Reiseplanung vor. </description>
+      <dc:creator>ZEIT ONLINE : Reisen - Mareike Nieberding</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 08:46:20 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://blog.zeit.de/tontraeger/2012/10/24/tame-impala-lonerism_14373</link>
+      <guid>http://blog.zeit.de/tontraeger/2012/10/24/tame-impala-lonerism_14373</guid>
+      <category>Kultur</category>
+      <title>Pop von Tame Impala: Bis die Wahwahs glühen</title>
+      <description>&lt;a href="http://www.zeit.de/kultur/musik/2012-10/tontraeger-tame-impala-lonerism"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/kultur/musik/2012-10/tame-impala/tame-impala-148x84.jpg"/&gt;&lt;/a&gt; Mit rotziger Black-Sabbath-Gitarre führt Kevin Parker seine Band Tame Impala durch benebelte Epochen der Rockmusik: ein Trip in Batikhosen mit den Globetrottern des Pop.</description>
+      <dc:creator>ZEIT ONLINE : Kultur</dc:creator>
+    </item>
+    <item>
+      <link>http://www.zeit.de/kultur/2012-10/mahnmal-sinti-roma-berlin</link>
+      <guid>http://www.zeit.de/kultur/2012-10/mahnmal-sinti-roma-berlin</guid>
+      <category>Kultur</category>
+      <title>Mahnmal in Berlin: Der Brunnen mit dem schwarzen Wasser</title>
+      <description>&lt;a href="http://www.zeit.de/kultur/2012-10/mahnmal-sinti-roma-berlin"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/kultur/2012-10/mahnmal-berlin/mahnmal-berlin-148x84.jpg"/&gt;&lt;/a&gt; Jahrelang hatte es um das Wo und das Wie politisches Gezerre gegeben: Nun wird das Mahnmal für die im Nationalsozialismus ermordeten Sinti und Roma eingeweiht. </description>
+      <dc:creator>ZEIT ONLINE : Kultur - Gerrit Bartels</dc:creator>
+      <pubDate>Tue, 23 Oct 2012 22:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/gesellschaft/2012-10/pius-bruderschaft-bischof-williamson</link>
+      <guid>http://www.zeit.de/gesellschaft/2012-10/pius-bruderschaft-bischof-williamson</guid>
+      <category>Gesellschaft</category>
+      <title>Katholische Kirche: Pius-Brüder schließen Bischof Williamson aus</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/2012-10/pius-bruderschaft-bischof-williamson"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/gesellschaft/2012-10/pius-brueder/pius-brueder-148x84.jpg"/&gt;&lt;/a&gt; Der Holocaust-Leugner Williamson ist nicht länger Mitglied der Piusbruderschaft. Der Bischof lasse Respekt und Gehorsam vermissen, teilte die Bruderschaft mit.</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 09:04:46 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/digital/internet/2012-10/apple-ipad-mini-sprache</link>
+      <guid>http://www.zeit.de/digital/internet/2012-10/apple-ipad-mini-sprache</guid>
+      <category>Digital</category>
+      <title>Apple: Dieser Text ist unglaublich großartig</title>
+      <description>&lt;a href="http://www.zeit.de/digital/internet/2012-10/apple-ipad-mini-sprache"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/digital/internet/2012-10/tim-cook/tim-cook-148x84.jpg"/&gt;&lt;/a&gt; Apple-Produkte sind fantastisch, unglaublich und erstaunlich. Sagt Apple. Die endlose Selbstbeweihräucherung ist nervtötend, peinlich und kontraproduktiv, sagt P. Beuth.</description>
+      <dc:creator>ZEIT ONLINE : Digital - Patrick Beuth</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 09:02:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/studium/2012-10/bayern-csu-studiengebuehren</link>
+      <guid>http://www.zeit.de/studium/2012-10/bayern-csu-studiengebuehren</guid>
+      <category>Studium</category>
+      <title>Bayern: CSU diskutiert die Abschaffung der Studiengebühren</title>
+      <description>&lt;a href="http://www.zeit.de/studium/2012-10/bayern-csu-studiengebuehren"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2012-10/uni-bayern/uni-bayern-148x84.jpg"/&gt;&lt;/a&gt; Das Urteil des Verfassungsgerichtshofs über den Volksentscheid hat das Thema wieder auf die Agenda der CSU gesetzt. Die Fraktion will es "ergebnisoffen" diskutieren.</description>
+      <dc:creator>ZEIT ONLINE : Studium</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 08:51:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/wirtschaft/2012-10/ifo-index-konjunktur-unternehmen</link>
+      <guid>http://www.zeit.de/wirtschaft/2012-10/ifo-index-konjunktur-unternehmen</guid>
+      <category>Wirtschaft</category>
+      <title>Konjunktur: Ifo-Index weiter gesunken</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2012-10/ifo-index-konjunktur-unternehmen"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2012-10/konjunktur/konjunktur-148x84.jpg"/&gt;&lt;/a&gt; Euro-Krise und die weltweite Konjunkturschwäche drücken auf die Stimmung der deutschen Wirtschaft. Die Unternehmen sind pessimistisch.</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 08:53:57 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/2012-10/bp-rosneft-putin</link>
+      <guid>http://www.zeit.de/politik/2012-10/bp-rosneft-putin</guid>
+      <category>Politik</category>
+      <title>Rosneft: Ein Putin-Buddy wird Chef des weltgrößten Ölgiganten</title>
+      <description>&lt;a href="http://www.zeit.de/politik/2012-10/bp-rosneft-putin"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2012-10/putin-setschin/putin-setschin-148x84.jpg"/&gt;&lt;/a&gt; Igor Setschin war schon Büroleiter von Russlands Präsident Putin. Jetzt hat es das Intrigen-Talent an die Spitze des weltgrößten Ölkonzern geschafft.  Von Elke Windisch</description>
+      <dc:creator>ZEIT ONLINE : Politik - Elke Windisch</dc:creator>
+      <pubDate>Tue, 23 Oct 2012 22:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/gesellschaft/zeitgeschehen/2012-10/csu-zdf-bericht-bayern-spd</link>
+      <guid>http://www.zeit.de/gesellschaft/zeitgeschehen/2012-10/csu-zdf-bericht-bayern-spd</guid>
+      <category>Gesellschaft</category>
+      <title>Einflussnahme: CSU wollte ZDF-Bericht über SPD verhindern</title>
+      <description>&lt;a href="http://www.zeit.de/gesellschaft/zeitgeschehen/2012-10/csu-zdf-bericht-bayern-spd"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/deutschland/2012-10/csu/csu-148x84.jpg"/&gt;&lt;/a&gt; Nachrichten als Wunschsendung: Ein CSU-Sprecher hat versucht, beim öffentlich-rechtlichen Rundfunk zu intervenieren. Laut Medien soll er sogar gedroht haben.</description>
+      <dc:creator>ZEIT ONLINE : Gesellschaft</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 08:32:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/politik/ausland/2012-10/obama-romney-tv-duell-umfragen-swing-states</link>
+      <guid>http://www.zeit.de/politik/ausland/2012-10/obama-romney-tv-duell-umfragen-swing-states</guid>
+      <category>Politik</category>
+      <title>TV-Debatte: Obamas Punktsieg verpufft</title>
+      <description>&lt;a href="http://www.zeit.de/politik/ausland/2012-10/obama-romney-tv-duell-umfragen-swing-states"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/politik/2012-10/obama/obama-148x84.jpg"/&gt;&lt;/a&gt; Einer Umfrage zufolge hat das letzte TV-Duell keinen direkten Einfluss auf die Wählergunst. In einer Tour in den Swing States kämpfen Obama und Romney nun um jede Stimme.</description>
+      <dc:creator>ZEIT ONLINE : Politik</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 08:01:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/themen/reisen/cityguide-prag/index</link>
+      <guid>http://www.zeit.de/themen/reisen/cityguide-prag/index</guid>
+      <category>Reisen</category>
+      <title>City Guide : Prag – schön, alt und ziemlich schräg</title>
+      <description>&lt;a href="http://www.zeit.de/reisen/2012-10/city-guide-prag-link"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/reisen/2012-10/kampa-prag/kampa-prag-148x84.jpg"/&gt;&lt;/a&gt; Im City Guide fahren wir Tram mit dem Schriftsteller Jaroslav Rudiš, essen Schinken, tanzen in Gewölben und streicheln, wenn keiner hinschaut, den heiligen Nepomuk.</description>
+      <dc:creator>ZEIT ONLINE : Reisen</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 07:39:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/lebensart/2012-10/fs-coryander-friend-fvf-2</link>
+      <guid>http://www.zeit.de/lebensart/2012-10/fs-coryander-friend-fvf-2</guid>
+      <category>Lebensart</category>
+      <title>Freunde von Freunden: Zwei Surfboards im Garten</title>
+      <description>&lt;a href="http://www.zeit.de/lebensart/2012-10/fs-coryander-friend-fvf-2"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/lebensart/2012-10/fs-coryander-friend-fvf-teaser/fs-coryander-friend-fvf-teaser-148x84.jpg"/&gt;&lt;/a&gt; Coryander Friend hat ihr Haus in L.A. so liebevoll eingerichtet wie die Filmsets, die sie gestaltet. Das Blog "Freunde von Freunden" hat sie besucht. Wir zeigen Bilder.</description>
+      <dc:creator>ZEIT ONLINE : Lebensart</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 07:41:56 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/karriere/bewerbung/2012-10/leserartikel-bildungsprekarier-arbeitslos</link>
+      <guid>http://www.zeit.de/karriere/bewerbung/2012-10/leserartikel-bildungsprekarier-arbeitslos</guid>
+      <category>Karriere</category>
+      <title>Arbeitslose Akademiker: Die geistige Elite bei der Arbeitsagentur</title>
+      <description>&lt;a href="http://www.zeit.de/karriere/bewerbung/2012-10/leserartikel-bildungsprekarier-arbeitslos"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/karriere/bewerbung/2012-10/leserartikel-arbeitslos/leserartikel-arbeitslos-148x84.jpg"/&gt;&lt;/a&gt; Selbst Promovierte beziehen teilweise Arbeitslosengeld, schreibt Leser Jörg Neunhäuserer. Wie er finden manche Wissenschaftler einfach keine Stelle. </description>
+      <dc:creator>ZEIT ONLINE : Karriere - Jörg Neunhäuserer</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 06:38:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>http://www.zeit.de/wirtschaft/2012-10/gebaeudesanierung-steuer-foerderung-</link>
+      <guid>http://www.zeit.de/wirtschaft/2012-10/gebaeudesanierung-steuer-foerderung-</guid>
+      <category>Wirtschaft</category>
+      <title>Energiesparen: Schwarz-Gelb streicht Steuerbonus für Altbausanierung</title>
+      <description>&lt;a href="http://www.zeit.de/wirtschaft/2012-10/gebaeudesanierung-steuer-foerderung-"&gt;&lt;img style="float:left; margin-right:5px" src="http://images.zeit.de/wirtschaft/2012-10/sanierung/sanierung-148x84.jpg"/&gt;&lt;/a&gt; Laut Medienberichten ist die steuerliche Förderung der Gebäudesanierung vom Tisch. Von der neuen Lösung werden nur wenige Immobilienbesitzer profitieren.</description>
+      <dc:creator>ZEIT ONLINE : Wirtschaft</dc:creator>
+      <pubDate>Wed, 24 Oct 2012 06:17:44 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

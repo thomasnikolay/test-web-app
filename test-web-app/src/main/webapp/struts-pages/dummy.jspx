@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- 
+    Document   : SIE-412
+    Created on : 25.02.2013, 13:49:35
+    Author     : tnikolay
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0" xmlns:s="/struts-tags">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="windows-1252"/>
+
+    <!-- any content can be specified here, e.g.: -->
+    <jsp:element name="text">
+        <jsp:attribute name="lang">EN</jsp:attribute>
+        <jsp:body>            
+            request successful received! 
+            <br/>
+            output ${not empty outputString ? "was not emtpy" : "was empty"}
+            <br/>
+            ${outputString}
+
+        </jsp:body>
+    </jsp:element>
+
+</jsp:root>

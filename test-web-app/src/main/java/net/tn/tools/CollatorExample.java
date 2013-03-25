@@ -18,6 +18,8 @@ public class CollatorExample {
     public static void main(String[] args) {
         Collator col = Collator.getInstance(Locale.ENGLISH);
         System.out.println(col.compare("Quaken", "Quäken"));
+
+        
     }
 
 }

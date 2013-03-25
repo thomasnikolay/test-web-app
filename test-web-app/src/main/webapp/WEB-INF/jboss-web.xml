@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jboss-web>
   <context-root>/test-web-app</context-root>
+  <mime-mapping>
+    <extension>bml</extension>
+    <mime-type>text/xml</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>rbml</extension>
+    <mime-type>text/xml</mime-type>
+  </mime-mapping>
 </jboss-web>

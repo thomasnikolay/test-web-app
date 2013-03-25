@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts><!-- Configuration for the default package. -->    
+    <constant name="struts.devMode" value="true" />
+        
+    <package name="net.tn.struts" namespace="/struts-actions" extends="struts-default">               
+        <action name="receiver" class="net.tn.struts.actions.ReceiveRequest">
+            <result name="success">/struts-pages/dummy.jspx</result>
+        </action>
+        <action name="sup-16759" class="net.tn.issues.actions.Sup16759Smart">
+            <result name="success">/struts-pages/dummy.jspx</result>
+        </action>
+        <action name="sup-16759-2" class="net.tn.issues.actions.Sup16759Smart2">
+            <result name="success">/struts-pages/dummy.jspx</result>
+        </action>
+    </package>
+</struts>
+

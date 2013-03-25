@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page paging="false" nocache="false" rifoptimize="false" output-encoding="UTF-8">
+  
+    <container>
+        <column>
+            <TEXT>
+                <richtext>Hello World!</richtext>
+            </TEXT>
+        </column>
+    </container>
+    <container>
+        
+    </container>
+</page>

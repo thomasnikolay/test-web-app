@@ -39,6 +39,23 @@
             <version>2.1.6</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.12</version>
+        </dependency>
+            
     </dependencies>
 
     <build>
@@ -56,7 +73,10 @@
     </build>
     <groupId>net.tn</groupId>
     <organization>
-    	<name>Thomas Nikolay</name>
-    	<url>http://www.thomas-nikolay.de</url>
+        <name>Thomas Nikolay</name>
+        <url>http://www.thomas-nikolay.de</url>
     </organization>
+    <properties>
+        <netbeans.hint.deploy.server>JBoss4</netbeans.hint.deploy.server>
+    </properties>
 </project>

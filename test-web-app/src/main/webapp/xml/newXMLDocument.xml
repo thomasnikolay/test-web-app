@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- en -->
+    <sitemap>
+        <loc>http://m.siemens.com/apps/SiteExplorer2/googlesitemap_en.xml</loc>
+    </sitemap>
+<!-- de -->
+    <sitemap>
+        <loc>http://m.siemens.com/apps/SiteExplorer2/googlesitemap_de.xml</loc>
+    </sitemap>
+</sitemapindex>
