@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<json>
+  <item>
+    <id>kca2013_vote_mb</id>
+    <type>KCA 2013 Vote Hub Mobile DE</type>
+    <source>external</source>
+    <locale>DE</locale>
+    <categoryVoting>OFF</categoryVoting>
+    <categories>
+      <id>0</id>
+      <url>favorite_tv_show_mb</url>
+      <ballot>favorite_tv_show_mb</ballot>
+      <name>Lieblings-TV-Serie</name>
+      <winner>2</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Good Luck Charlie</alt>
+        <description>Wenn die Eltern auf der Arbeit sind, dann müssen die Duncan-Kids ihre Schwester Charlie alleine erziehen. Aber Charlie stellt sich der größten Aufgabe, nämlich ihre verrückte Familie in den Griff zu bekommen. Viel Glück, Charlie, natürlich auch bei den diesjährigen KCAs.</description>
+        <link>/abstimmen</link>
+        <name>Good Luck Charlie</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-tv-show/good-luck-charlie-1920x1440.jpg</image>
+        <lineId>kca-vote-charlie</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>iCarly</alt>
+        <description>Dieses Jahr sagen wir iGoodbye zu der verrückten Crew von &lt;i&gt;iCarly&lt;/i&gt;. Werden Miranda Cosgrove, Jennette McCurdy, Nathan Kress, Noah Munck und der Rest der Truppe eine letzte Chance haben, den begehrten Preis in ihren Händen halten zu dürfen? Wir sind gespannt!</description>
+        <link>/abstimmen</link>
+        <name>iCarly</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-tv-show/icarly-1920x1440.jpg</image>
+        <lineId>kca-vote-icarly</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Victorious</alt>
+        <description>Tori Vega, gespielt von Victoria Justice, wei&amp;szlig;, was es hei&amp;szlig;t ein Star zu sein. Sie lernt es ja auch jeden Tag in der Schule! Aber kann sich Victoria auch gegen ihre prominente Konkurrenz durchsetzen? Es kann nur einer den orangenen Zeppelin gewinnen!</description>
+        <link>/abstimmen</link>
+        <name>Victorious</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-tv-show/victorious-1920x1440.jpg</image>
+        <lineId>kca-vote-victorious</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Die Zauberer vom Waverly Place</alt>
+        <description>Der Familie Russo zuzuschauen, wie sie ihre Zauberstäbe schwingen, ist magisch! Im wahrsten Sinne des Wortes. Selena Gomez und ihre Crew winken Aufwiedersehen, aber haben sie noch einen letzten Zauberspruch für den KCA-Preis bereit?</description>
+        <link>/abstimmen</link>
+        <name>Die Zauberer vom Waverly Place</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-tv-show/wizards-of-waverly-place-1920x1440.jpg</image>
+        <lineId>kca-vote-wizards</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>1</id>
+      <url>favorite_cartoon_mb</url>
+      <ballot>favorite_cartoon_mb</ballot>
+      <name>Lieblings-Cartoon</name>
+      <winner>2</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Cosmo &amp; Wanda - Wenn Elfen helfen</alt>
+        <description>Timmy Turner hat zwei magische Elfen als Pateneltern. Er ist offensichtlich der gl&amp;uuml;cklichste Junge der Welt. K&amp;ouml;nnen wir bitte auch helfende Elfen als Pateneltern haben? Wir haben dringende W&amp;uuml;nsche, die erf&amp;uuml;llt werden m&amp;uuml;ssen. Vielleicht sollte Timmy sich w&amp;uuml;nschen in der Kategorie Lieblings-Cartoon zu gewinnen.</description>
+        <link>/abstimmen</link>
+        <name>Cosmo &amp; Wanda - Wenn Elfen helfen</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-cartoon/fairly-odd-parents.jpg</image>
+        <lineId>kca-vote-fairly-oddparents</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Phineas and Ferb</alt>
+        <description>Wir w&amp;auml;ren so gerne in Phineas and Ferb&apos;s fam! (Okay, gerne ohne Candance, aber die echte Ashley Tisdale w&amp;uuml;rden wir schon als Schwester nehmen.) Diese beiden Stiefbr&amp;uuml;der wissen definitiv, wie man verr&amp;uuml;ckte Streiche spielt. Aber schaffen sie es auch einen KCA-Preis zu ergattern?</description>
+        <link>/abstimmen</link>
+        <name>Phineas and Ferb</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-cartoon/phineas-and-ferb.jpg</image>
+        <lineId>kca-vote-phineas</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>SpongeBob Schwammkopf</alt>
+        <description>Es ist keine &amp;Uuml;berraschung SpongeBob Schwammkopf in dieser Kategorie zu sehen. Er gewann bereits mehr KCAs, als es Fische im Meer gibt. Wie passen blo&amp;szlig; alle diese Preise in sein kleines Ananas-Haus? Falls er noch einmal gewinnt, dann braucht er sicherlich Kokosnuss-Garage f&amp;uuml;r die ganzen Zeppeline.</description>
+        <link>/abstimmen</link>
+        <name>SpongeBob Schwammkopf</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-cartoon/spongebob-squarepants-8.jpg</image>
+        <lineId>kca-vote-spongebob</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Tom und Jerry</alt>
+        <description>Die diesj&amp;auml;hrige Kategorie Lieblings-Cartoon wird zum Katz-und-Maus-Spiel. Das ist zum Gl&amp;uuml;ck nichts neues f&amp;uuml;r Tom und Jerry. Sie jagen sich gern t&amp;auml;glich. Wird jemals die schlaue Maus Jerry &amp;uuml;berlisten? Wahrscheinlich nicht. Uns macht es jedenfalls ganz viel Spa&amp;szlig; dabei zuzusehen.</description>
+        <link>/abstimmen</link>
+        <name>Tom und Jerry</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-cartoon/tom-and-jerry.jpg</image>
+        <lineId>kca-vote-tom-jerry</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>2</id>
+      <url>favorite_male_tv_star_mb</url>
+      <ballot>favorite_male_tv_star_mb</ballot>
+      <name>Lieblings-TV-Schauspieler</name>
+      <winner>2</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Jake T. Austin</alt>
+        <description>Jake T. Austin ist bekannt für seine beliebte Rolle in &lt;i&gt;Die Zauberer vom Waverly Place&lt;/i&gt;. Obwohl er meistens vor der Kamera steht, war er auch schon als Regisseur und Drehbuchschreiber tätig. Außerdem arbeitet er noch für wohltätige Zwecke. Wie er das alles schafft? Magie!</description>
+        <link>/abstimmen</link>
+        <name>Jake T. Austin</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-tv-star/jake-t-austin-1920x1440.jpg</image>
+        <lineId>kca-vote-jake-t-austin</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Lucas Cruikshank</alt>
+        <description>Der Spaßvorgel Lucas Cruikshank bringt uns zur Zeit mit seiner als Rolle als Fred Figglehorn zum Lachen. Lucas hat fünf Schwestern und zwei Brüder. Mit so vielen Daumen zum Drücken, kann bei den KCAs ja fast gar nichts schief gehen!</description>
+        <link>/abstimmen</link>
+        <name>Lucas Cruikshank</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-tv-star/lucas-cruikshank-1920x1440.jpg</image>
+        <lineId>kca-vote-lucas-cruikshank</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Ross Lynch</alt>
+        <description>Ross Lynch ist die Hälfte der Serie &lt;i&gt;Austin &amp; Ally&lt;/i&gt; und hat nebenbei noch Zeit mit seiner Familienband &quot;R5&quot; Musik zu machen! Wie macht er das? Indem er natürlich einfach fantastisch ist! Ross mag zwar Zeit für viele Hobbys haben, aber wird er auch Zeit finden einen Zeppelin zu gewinnen?</description>
+        <link>/abstimmen</link>
+        <name>Ross Lynch</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-tv-star/ross-lynch-1920x1440.jpg</image>
+        <lineId>kca-vote-ross-lynch</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Carlos Pena</alt>
+        <description>Ohne Carlos Pena wären BTR einfach nicht die selben. Und dieses Jahr erweitert er seine lange Liste an Talenten noch um die Arbeit als Regisseur. Als ob uns seine Auftritte bei &lt;i&gt;Big Time Rush&lt;/i&gt; nicht schon genug zum Lachen bringen! Er ist definitiv ein Gewinner für uns. Könnte das C in KCA für Carlos stehen?</description>
+        <link>/abstimmen</link>
+        <name>Carlos Pena</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-tv-star/carlos-pena-1920x1440.jpg</image>
+        <lineId>kca-vote-carlos-pena</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>3</id>
+      <url>favorite_female_tv_mb</url>
+      <ballot>favorite_female_tv_mb</ballot>
+      <name>Lieblings-TV-Schauspielerin</name>
+      <winner>1</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Miranda Cosgrove</alt>
+        <description>Wir werden Miranda immer als den wundervollen Teenager Carly Shay von &lt;i&gt;iCarly&lt;/i&gt; in Erinnerung behalten. Aber sie ist viel mehr, nämlich auch eine Schülerin am College! Sie verdient Respekt dafür, dass sie ihre Schauspielkarriere und ihre Ausbildung unter einen Hut bringt!</description>
+        <link>/abstimmen</link>
+        <name>Miranda Cosgrove</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-tv-star/cosgrove-1.jpg</image>
+        <lineId>kca-vote-miranda-cosgrove</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Selena Gomez</alt>
+        <description>Selena Gomez wurde bekannt in der Serie &lt;i&gt;Die Zauberer vom Waverly Place&lt;/i&gt;. Damit verzauberte sie die ganze Welt! Obwohl es für Selena die letzte Staffel sein wird, besitzt sie genug Magie, um auch weiterhin ihre Fans zu verhexen. Ob sie auch genügend Zauberkraft hat, um bei den KCAs zu gewinnen?</description>
+        <link>/abstimmen</link>
+        <name>Selena Gomez</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-tv-star/gomez-3.jpg</image>
+        <lineId>kca-vote-selena-gomez</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Victoria Justice</alt>
+        <description>Victoria Justice ist beliebt durch ihre Schauspiel- und Gesangskünste. Beides kann sie als Tori in der Serie &lt;i&gt;Victorious&lt;/i&gt; unter Beweis stellen. Mit diesen Talenten hat sie gute Chancen, bei den diesjährigen KCAs mit einem Zeppelin nach Hause zu gehen!</description>
+        <link>/abstimmen</link>
+        <name>Victoria Justice</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-tv-star/justice-1.jpg</image>
+        <lineId>kca-vote-victoria-justice</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Bridgit Mendler</alt>
+        <description>Bridgit Mendler ist der Star der Serie &lt;i&gt;Meine Schwester Charlie&lt;/i&gt;. Darin spielt sie die wohl beste Schwester auf der ganzen Welt. Ernsthaft, wer so eine Schwester hat, der hat für&apos;s Leben ausgesorgt! Nur eines fehlt ihr: der KCA-Zeppelin!</description>
+        <link>/abstimmen</link>
+        <name>Bridgit Mendler</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-tv-star/mendler-1.jpg</image>
+        <lineId>kca-vote-bridgit-mendler</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>4</id>
+      <url>favorite_book_mb</url>
+      <ballot>favorite_book_mb</ballot>
+      <name>Lieblings-Buch</name>
+      <winner>2</winner>
+      <nominees>
+        <id>0</id>
+        <alt>&quot;Gregs Tagebuch&quot;-Reihe</alt>
+        <description>Greg Heffley hat es wirklich nicht einfach. Neben seinen pers&amp;ouml;nlichen Problemen muss er auch noch mit den Problemen seines besten Freundes Rowley und seines &amp;auml;lteren Bruders Rodrick klarkommen. Nichts leichter als das! Wenn sein Freund nicht immer so sonderlich w&amp;auml;re und sein Bruder nicht so gereizt. Seine dennoch lustigen Geschichten haben die Buch- und Filmserie zu einem gro&amp;szlig;en Erfolg gemacht. Aber reicht es f&amp;uuml;r den Preis?</description>
+        <link>/abstimmen</link>
+        <name>&quot;Gregs Tagebuch&quot;-Reihe</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-book/diary-of-a-wimpy-kid-series-1.jpg</image>
+        <lineId>kca-vote-wimpy-kid</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>&quot;Harry Potter&quot;-Reihe</alt>
+        <description>Wer noch nicht die &lt;i&gt;Harry-Potter-Reihe&lt;/i&gt; von J.K. Rowling gelesen hat, lebt wirklich hinterm Mond! Mit den Büchern und Filmen haben Harry und seine Freunde die Welt verzaubert, aber können sie ihre Magie auch bei den KCAs anwenden?</description>
+        <link>/abstimmen</link>
+        <name>&quot;Harry Potter&quot;-Reihe</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-book/harry-potter-series-1.jpg</image>
+        <lineId>kca-vote-harry-potter</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>&quot;Die Tribute von Panem&quot;-Reihe</alt>
+        <description>Nach der Bücherwelt begeistern &lt;i&gt;Die Tribute von Panem&lt;/i&gt; von Suzanne Collins auch die Kinoleinwände. Als nächstes müssen sich Katniss und der Rest den schleimigen und aufregenden KCAs stellen. Aber wenn die Kids eines können, dann ist es mit Konkurrenz umzugehen!</description>
+        <link>/abstimmen</link>
+        <name>&quot;Die Tribute von Panem&quot;-Reihe</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-book/hunger-games-series-1.jpg</image>
+        <lineId>kca-vote-hunger-games</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>&quot;Das Magische Baumhaus&quot;-Reihe</alt>
+        <description>Mit mächtiger Hexerei, antiken Rätseln und Merlin ist Mary Pope Osbornes Buchreihe genauso magisch, wie der Name verspricht. Jack und Annies &lt;i&gt;Magisches Baumhaus&lt;/i&gt; bringt die Beiden weit weg von zu Hause. Aber schaffen sie es auch bis auf die KCA-Bühne?</description>
+        <link>/abstimmen</link>
+        <name>&quot;Das Magische Baumhaus&quot;-Reihe</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-book/magic-treehouse-series-1.jpg</image>
+        <lineId>kca-vote-magic-tree</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>5</id>
+      <url>favorite_videogame_mb</url>
+      <ballot>favorite_videogame_mb</ballot>
+      <name>Lieblings-Videospiel</name>
+      <winner>0</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Just Dance 4</alt>
+        <description>&lt;i&gt;Just Dance&lt;/i&gt; ist zurück mit neuer Musik, neuen Moves und Herausforderungen! Die letzte Ausgabe war unbeschreiblich cool, die Fortsetzung versucht nochmal einen drauf zu setzen. Die Konkurrenz zieht sich besser bequeme Schuhe an, wenn sie gegen diese Tanzsensation ankommen will.</description>
+        <link>/abstimmen</link>
+        <name>Just Dance 4</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-videogame/just-dance-667x500.jpg</image>
+        <lineId>kca-vote-just-dance-4</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Mario Kart 7</alt>
+        <description>Die siebente Ausgabe des beliebten Mario Karts l&amp;auml;sst die Spieler nicht nur auf der Stra&amp;szlig;e fahren, sondern schickt sie auch in die Luft und unter Wasser. Wir k&amp;ouml;nnen uns jetzt schon vorstellen, wie Wario bei der Awards ruft: &quot;Ich werde gewiiiinnnen!&quot;.</description>
+        <link>/abstimmen</link>
+        <name>Mario Kart 7</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-videogame/mario-kart-1600x1200.jpg</image>
+        <lineId>kca-vote-mario-kart-7</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Skylanders Giants</alt>
+        <description>Im Nachfolger zu Spyro&apos;s Adventure sind die Skylander besser und gr&amp;ouml;&amp;szlig;er als je zuvor! Mit neuem gigantischen Spielzeugfiguren wird es noch aufregender, die verlorene Stadt vor dem b&amp;ouml;sen Kaos zu finden! Kann damit aber auch der KCA-Award erobert werden?</description>
+        <link>/abstimmen</link>
+        <name>Skylanders Giants</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-videogame/skylanders-giants-1000x750.jpg</image>
+        <lineId>kca-vote-skylanders-giants</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Wii Sports</alt>
+        <description>Seit 2006 holt uns das Spiel die Müdigkeit aus den Knochen. &lt;i&gt;Wii Sports&lt;/i&gt; hat seitdem nichts an Charme verloren. Dank des einzigartigen Wii-Controllers können wir Golf, Baseball und Bowling realitätsnah von zu Hause aus spielen!</description>
+        <link>/abstimmen</link>
+        <name>Wii Sports</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-videogame/wii-sports-667x500.jpg</image>
+        <lineId>kca-vote-wii-sports</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>6</id>
+      <url>favorite_app_mb</url>
+      <ballot>favorite_app_mb</ballot>
+      <name>Lieblings-App</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Angry Birds</alt>
+        <description>In nur drei Jahren wurde &lt;i&gt;Angry Birds&lt;/i&gt; zu einem süchtig machenden Hit. Es durfte auf keinem Smartphone fehlen. Mittlerweile hat es auch den PC, die Spielkonsole und den Fernseher erreicht. Wer hätte gedacht, dass Vögel werfen so viel Spaß machen kann!?</description>
+        <link>/abstimmen</link>
+        <name>Angry Birds</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-app/angry-birds-mzl.dtokstkq.jpg</image>
+        <lineId>kca-vote-angry-birds</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Fruit Ninja</alt>
+        <description>&lt;i&gt;Fruit Ninja&lt;/i&gt; ist alles andere als Banane. So gerne zerschlagen wir jetzt Äpfel und Orangen. Natürlich nur im Spiel! Seit der Veröffentlichung 2010 kriegen wir einfach nicht genug von dem Spiel. Das sollte mit einem Preis bei den KCAs belohnt werden!</description>
+        <link>/abstimmen</link>
+        <name>Fruit Ninja</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-app/fruit-ninja-mzl.mstmavmx.jpg</image>
+        <lineId>kca-vote-fruit-ninja</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Minecraft</alt>
+        <description>Mit diesem Spiel können wir die Welt so gestalten, wie wir es wollen. Es macht immer Spaß - egal ob man gegen Monster kämpft oder nur das Haus einrichtet. &lt;i&gt;Minecraft&lt;/i&gt; ist auf jedenfall eines der einzigartigsten Spiele der letzten Jahre!</description>
+        <link>/abstimmen</link>
+        <name>Minecraft</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-app/minecraft-url.jpg</image>
+        <lineId>kca-vote-minecraft</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Temple Run</alt>
+        <description>Wenn wir einmal anfangen &lt;i&gt;Temple Run&lt;/i&gt; zu spielen, wollen wir nicht mehr aufhören. Das Beste ist: wir müssen es auch nicht! Wir weichen so gerne Objekten aus oder flüchten vor gemeinen Affen. So ein Spiel hat auf jedenfall einen Preis bei den KCAs verdient!</description>
+        <link>/abstimmen</link>
+        <name>Temple Run</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-app/temple-run.jpg</image>
+        <lineId>kca-vote-temple-run</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>7</id>
+      <url>favorite_movie_mb</url>
+      <ballot>favorite_movie_mb</ballot>
+      <name>Lieblings-Kinofilm</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>The Amazing Spider-Man</alt>
+        <description>The Amazing Spider-Man erzählt die Geschichte der beliebten Spinne erneut. Wir erfahren, wie Peter Parker vom Schüler zum Spider-Man wird. Die Hauptrollen spielen Andrew Garfield und Emma Stone. Dieser Actionfilm hat uns 2012 an den Kinosessel gefesselt!</description>
+        <link>/abstimmen</link>
+        <name>The Amazing Spider-Man</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie/the-amazing-spider-man-1067x800.jpg</image>
+        <lineId>kca-vote-spiderman</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>The Avengers</alt>
+        <description>Das Jahr 2012 stand ganz im Zeichen der Superhelden. Allen voran natürlich &lt;i&gt;The Avengers&lt;/i&gt;. Erstmalig haben wir die legendären Helden Iron Man, Captain America, Hulk und Thor in einem Film gesehen. Zusammen kämpfen sie gegen den fiesen Loki. Schaffen sie es mit Teamarbeit auch zum KCA-Zeppelin?</description>
+        <link>/abstimmen</link>
+        <name>The Avengers</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie/the-avangers-1920x1440.jpg</image>
+        <lineId>kca-vote-avengers</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Gregs Tagebuch 3 – Ich war’s nicht!</alt>
+        <description>In der dritten Ausgabe der beliebten Buchverfilmung kämpft sich Greg durch die Sommerferien. Eigentlich hatte er geplant den ganzen Tag Videogames zu spielen. Alles kommt natürlich ganz anders... Hoffentlich läuft bei den Kids Choice Awards für Greg alles nach Plan!</description>
+        <link>/abstimmen</link>
+        <name>Gregs Tagebuch 3 – Ich war’s nicht!</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie/diary-of-a-whimpy-kid-dog-days-680x510.jpg</image>
+        <lineId>kca-vote-wimpy</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Die Tribute von Panem</alt>
+        <description>&lt;i&gt;Die Tribute von Panem&lt;/i&gt; ist die Verfilmung des ersten Buchs der beliebten Reihe. Wir sehen, wie Katniss Everdeen ums Überleben kämpft. Ihr Mut macht sie zum Liebling bei dem gefährlichen Wettkampf. Wird ihre Popularität auch für die KCAs reichen?</description>
+        <link>/abstimmen</link>
+        <name>Die Tribute von Panem</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie/the-hunger-games-1920x1440.jpg</image>
+        <lineId>kca-vote-hunger</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>8</id>
+      <url>favorite_movie_actor_mb</url>
+      <ballot>favorite_movie_actor_mb</ballot>
+      <name>Lieblings-Schauspieler</name>
+      <winner>0</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Johnny Depp (Dark Shadows)</alt>
+        <description>Im Horror-Komedie-Film &lt;i&gt;Dark Shadows&lt;/i&gt; spielt Johnny Depp den 200 Jahre alten Vampir Barnabas Collins. Wir haben uns köstlich über ihn und seine Familie amüsiert. Dies könnte nun mit einem KCA-Zeppelin belohnt werden!</description>
+        <link>/abstimmen</link>
+        <name>Johnny Depp (Dark Shadows)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actor/johnny-depp-1920x1440.jpg</image>
+        <lineId>kca-vote-depp</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Andrew Garfield (The Amazing Spider-Man)</alt>
+        <description>Andrew Garfield stand mit der Rolle als Spider-Man vor seiner wohl größten Rolle als Schauspieler. Diese Aufgabe hat er wahrlich unglaublich gemeistert. Er hat sein Spinnennetz um unsere Herzen gesponnen und ist nun bereit für eine neue Herausforderung: die KCAs 2013!</description>
+        <link>/abstimmen</link>
+        <name>Andrew Garfield (The Amazing Spider-Man)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actor/andrew-garfield-1920x1440.jpg</image>
+        <lineId>kca-vote-garfield</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Zachary Gordon (Gregs Tagebuch 3 – Ich war’s nicht!)</alt>
+        <description>Zachary Gordon kehrt in der dritten Verfilmung von &lt;i&gt;Gregs Tagebuch&lt;/i&gt; zurück auf die Leinwand. Diesmal lernt er die Gefahren von Sommerjobs und der Liebe kennen. Wer so viel durchmacht, hat den orangenen Zepplin verdient!</description>
+        <link>/abstimmen</link>
+        <name>Zachary Gordon (Gregs Tagebuch 3 – Ich war’s nicht!)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actor/zachary-gordon-1920x1440.jpg</image>
+        <lineId>kca-vote-zachary</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Will Smith (Men in Black 3)</alt>
+        <description>Der Gastgeber der KCAs 2012 benötigt keine Einleitung. Will Smith kämpft in MiB 3 wieder gegen Außerirdische und rettet die Erde vor dem Bösen. Diesmal reist er sogar in die Vergangenheit. Mit so viel Erfahrung stehen die Chancen für einen KCA-Preis äußerst gut!</description>
+        <link>/abstimmen</link>
+        <name>Will Smith (Men in Black 3)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actor/will-smith-1920x1440.jpg</image>
+        <lineId>kca-vote-will</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>9</id>
+      <url>favorite_movie_actress_mb</url>
+      <ballot>favorite_movie_actress_mb</ballot>
+      <name>Lieblings-Schauspielerin</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Vanessa Hudgens (Journey 2: The Mysterious Island)</alt>
+        <description>Vanessa Hudgens spielt in &lt;i&gt;Die Reise zur geheimnisvollen Insel&lt;/i&gt; die Rolle der Kailani. Sie und ihre Freunde antworten auf ein Notsignal von einer mysteriösen Insel. Ob sich die Arbeit für sie gelohnt hat? Wir werden es bei den diesjährigen KCAs sehen.</description>
+        <link>/abstimmen</link>
+        <name>Vanessa Hudgens (Journey 2: The Mysterious Island)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actress/vanessa-hudgens-1920x1440.jpg</image>
+        <lineId>kca-vote-vanessa</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Scarlett Johansson (The Avengers)</alt>
+        <description>Im atemberaubenden Superheldenabenteuer &lt;i&gt;The Avengers&lt;/i&gt; spielt Scarlett Johansson die Agentin Natasha Romanoff. Sie ist besser bekannt unter dem Namen Black Widow. Dabei schlägt sie sich mutig an der Seite von Iron Man und Thor. Sie sollte also keine Probleme mit ihren KCA-Konkurrenten haben!</description>
+        <link>/abstimmen</link>
+        <name>Scarlett Johansson (The Avengers)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actress/scarlett-johanson-1920x1440.jpg</image>
+        <lineId>kca-vote-scarlett</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Jennifer Lawrence (Die Tribute von Panem)</alt>
+        <description>Jennifer Lawrence überzeugte 2012 als die mutige Katniss Evergreen in &lt;i&gt;Die Tribute von Panem&lt;/i&gt;. Sie kämpfte sich wortworlich damit in die Herzen der Zuschauer. Wettkampf ist also kein Fremdwort für sie. Eine ausgezeichnete Voraussetzung für die KCAs!</description>
+        <link>/abstimmen</link>
+        <name>Jennifer Lawrence (Die Tribute von Panem)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actress/jennifer-lawrence-1920x1440.jpg</image>
+        <lineId>kca-vote-jennifer</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Kristen Stewart (Breaking Dawn – Bis(s) zum Ende der Nacht Teil 2)</alt>
+        <description>Im zweiten Teil von &lt;i&gt;Bis(s) zum Ende der Nacht&lt;/i&gt; zeigte Kristen Stewart zum letzten Mal ihr Talente als Bella. Ihr Verwandlung in einen Vampir hat uns an den Kinosessel gefesselt. Mal sehen, ob sie sich auch in einen KCA-Gewinner verwandeln wird!</description>
+        <link>/abstimmen</link>
+        <name>Kristen Stewart (Breaking Dawn – Bis(s) zum Ende der Nacht Teil 2)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-movie-actress/kristen-stewart-1920x1440.jpg</image>
+        <lineId>kca-vote-kristen</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>10</id>
+      <url>fav_animated_movie_mb</url>
+      <ballot>fav_animated_movie_mb</ballot>
+      <name>Lieblings-Animationsfilm</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Merida – Legende der Highlands</alt>
+        <description>Im animierten Pixar-Abenteuer &lt;i&gt;Merida – Legende der Highlands&lt;/i&gt; befreit Merida ihre Mutter von einem schrecklichen Fluch. Am Ende des Films hat die schottische Prinzessin eindeutig bewiesen, dass sie Mut besitzt. Der KCA-Zeppelin würde super neben ihrer Krone aussehen!</description>
+        <link>/abstimmen</link>
+        <name>Merida – Legende der Highlands</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-animated-movie/brave.jpg</image>
+        <lineId>kca-vote-brave</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Ice Age 4 – Voll verschoben</alt>
+        <description>&lt;i&gt;Ice Age 4 – Voll verschoben&lt;/i&gt; brachte uns mehr Action und mehr Lacher als seine drei Vorgänger. Auch diesmal verursacht das Rattenhörnchen Scrat eine Menge Ärger: Es vergräbt seine Eichel im Mittelpunkt der Welt und verursacht die Verschiebung der Kontinente. Ob das mit einem KCA-Preis wieder gut zu machen ist?</description>
+        <link>/abstimmen</link>
+        <name>Ice Age 4 – Voll verschoben</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-animated-movie/ice-age-manny.jpg</image>
+        <lineId>kca-vote-iceage</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Madagascar 3: Europe’s Most Wanted</alt>
+        <description>&lt;i&gt;Madagascar 3: Flucht durch Europa&lt;/i&gt; ist der erste Film aus der Reihe in 3D. Alex, Marty, Melman und Gloria wurden dadurch noch lebendiger. Diesmal verschlug es die Bande nach New York City. Also gar nicht so weit weg von Los Angeles und den diesjährigen KCAs!</description>
+        <link>/abstimmen</link>
+        <name>Madagascar 3: Europe’s Most Wanted</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-animated-movie/MAD3_cg_alex_08.jpg</image>
+        <lineId>kca-vote-madagascar</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Wreck-It Ralph</alt>
+        <description>Wer sich für Videospiele interessiert, muss &lt;i&gt;Ralph reichts&lt;/i&gt; gesehen haben! Ralph ist ein Computerbösewicht und träumt davon einer der Guten zu sein. Im Film wurde er wahrlich zum Helden. Ob es reicht, um einen KCA-Zepplin zu gewinnen?</description>
+        <link>/abstimmen</link>
+        <name>Wreck-It Ralph</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-animated-movie/wreck-it.jpg</image>
+        <lineId>kca-vote-wreck-it</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>11</id>
+      <url>fav_male_buttkicker_mb</url>
+      <ballot>fav_male_buttkicker_mb</ballot>
+      <name>Lieblings-Verklopper</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Robert Downey, Jr (The Avengers)</alt>
+        <description>Der amerikanische Schauspieler Robert Downey, Jr. verteilt, bereits seitdem er fünf war, jede Menge Arschtritte auf der Leinwand. Neben zahlreichen Kino- und TV-Rollen hat seine Rolle als mächtiger Iron Man in &quot;The Avengers&quot; seinen Kick-Ass-Status auf ein neues Level gehoben. Ob es reicht dieses Jahr dafür einen Preis zu gewinnen, wird sich zeigen.</description>
+        <link>/abstimmen</link>
+        <name>Robert Downey, Jr (The Avengers)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-buttkicker/downey-fin.jpg</image>
+        <lineId>kca-vote-robert</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Andrew Garfield (The Amazing Spider-Man)</alt>
+        <description>Wollt Ihr wissen, was an Andrew Garfield so erstaunlich ist? Er spielte Peter Parker in &apos;The Amazing Spider-Man&apos;! Er ist halb Brite und schauspielert seit seiner Kindheit. Andrew Garfield hat also alles, was ihn zu einem coolen Typen macht. Vielleicht helfen ihm seine spinnenhaften Sinne die harte Konkurrenz in dieser Kategorie zu schlagen.</description>
+        <link>/abstimmen</link>
+        <name>Andrew Garfield (The Amazing Spider-Man)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-buttkicker/garfield-3.jpg</image>
+        <lineId>kca-vote-garfield-2</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Chris Hemsworth (The Avengers)</alt>
+        <description>Ihr kennt diesen hammerschwingenden Australier sicherlich aus dem Film &quot;Thor&quot;. Aber es ist seine Rolle in &quot;The Avengers&quot;, die ihm zu einem Platz in unserer Liste verholfen hat. Wird er sich auf das Gewinnerpodium durchboxen k&amp;ouml;nnen? Wir werden sehen.</description>
+        <link>/abstimmen</link>
+        <name>Chris Hemsworth (The Avengers)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-buttkicker/hemsworth-2.jpg</image>
+        <lineId>kca-vote-hemsworth</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Dwayne Johnson (Journey 2: The Mysterious Island)</alt>
+        <description>Wenn Dwayne Johnson nicht gerade Drehb&amp;uuml;cher liest, dann steht er als Profi-WWE Wrestler und Titelgewinner im Ring. Aber auch beim Schauspielern macht er jede Menge Punkte gut und ist mit seiner Rolle &apos;Journey 2: The Mysterious Island&apos; nominiert.</description>
+        <link>/abstimmen</link>
+        <name>Dwayne Johnson (Journey 2: The Mysterious Island)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-buttkicker/johnson-2.jpg</image>
+        <lineId>kca-vote-dwayne</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>12</id>
+      <url>fav_female_buttkicker_mb</url>
+      <ballot>fav_female_buttkicker_mb</ballot>
+      <name>Lieblings-Verklopperin</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Anne Hathaway (The Dark Knight Rises)</alt>
+        <description>Wir lieben Anne Hathaway, seitdem wir sie in &apos;The Princess Diaries&apos; gesehen haben. Doch f&amp;uuml;r ihre Rolle als Catwoman in &apos;The Dark Knight Rises&apos; verabschiedete sie sich von den pinken R&amp;uuml;schen und es war klar, dass man sich warm anziehen muss. Sie ist keine Schmusekatze. Also aufgepasst, liebe Konkurrenz.</description>
+        <link>/abstimmen</link>
+        <name>Anne Hathaway (The Dark Knight Rises)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-buttkicker/hathaway-2.jpg</image>
+        <lineId>kca-vote-anne</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Scarlett Johansson (The Avengers)</alt>
+        <description>Scarlett Johansson verteilt Tritte, seitdem sie als kleines M&amp;auml;dchen von einem Vorsprechen zum anderen lief. Ihre Liebe zur Schauspielerei hat ihr die Rolle der Profispionin Natscha Romanoff in &apos;The Avengers&apos; verschafft. Und darmit landete sie auch in unserer Nomiertenliste. Die Konkurrenz sollte wachsam sein.</description>
+        <link>/abstimmen</link>
+        <name>Scarlett Johansson (The Avengers)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-buttkicker/johanson-1.jpg</image>
+        <lineId>kca-vote-scarlett-2</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Jennifer Lawrence (The Hunger Games)</alt>
+        <description>Jennifer Lawrence mag ein Kleinstadtkind aus Louisville,Kentucky sein, aber sie ist bekannt f&amp;uuml;r GROSSE Rollen. Sie spielte die furchtlose Katniss Everdeen in &apos;The HungerGames&apos; und hat mit dieser Rolle nun Aussichten auf den strahlend orangen Zeppelin.</description>
+        <link>/abstimmen</link>
+        <name>Jennifer Lawrence (The Hunger Games)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-buttkicker/lawrence-5.jpg</image>
+        <lineId>kca-vote-jennifer-2</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Kristen Stewart (The Twilight Saga: Breaking Dawn Part 2)</alt>
+        <description>Wer sagt, dass Frauen nicht ihr eigenes Gewicht st&amp;auml;mmen k&amp;ouml;nnen, der hat noch nicht Kristen Stewart getroffen. Sie ist bekannt als Bella Swan aus der &apos;Twilight&apos; - Triologie, aber es ist ihre Rolle als Schneewitchen in &apos;Snow White and the Huntsman&apos;, die sie auf die Liste der toughen Ladies setzt.</description>
+        <link>/abstimmen</link>
+        <name>Kristen Stewart (The Twilight Saga: Breaking Dawn Part 2)</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-buttkicker/stewart-2.jpg</image>
+        <lineId>kca-vote-kristen-2</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>13</id>
+      <url>favorite_music_group_mb</url>
+      <ballot>favorite_music_group_mb</ballot>
+      <name>Lieblings-Band</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Big Time Rush</alt>
+        <description>Kendall, James, Carlos und Logan sorgen daf&amp;uuml;r, dass wir fast t&amp;auml;glich singen und tanzen. Das zweite Album &quot;Elevate&quot; hat BTR auf neue H&amp;ouml;hen gebracht. Rushers, seid ihr bereit f&amp;uuml;r die Jungs abzustimmen? Ja? Dann kurbelt eure Fenster runter und schreit: &quot;Woo-Hoo!&quot;</description>
+        <link>/abstimmen</link>
+        <name>Big Time Rush</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-music-group/big-time-rush-sized.jpg</image>
+        <lineId>kca-vote-btr</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Bon Jovi</alt>
+        <description>Bon Jovi sind alte Hasen im Musikgeschäft. Sie gelten als eine der erfolgreichsten Pop-Rock-Bands. Sie haben nicht nur 130 Millionen Alben weltweit verkauft, sie tourten auch in 50 Ländern! Die Messlatte für ihre KCA-Konkurrenz setzen sie somit sehr hoch.</description>
+        <link>/abstimmen</link>
+        <name>Bon Jovi</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-music-group/bon-jovi.jpg</image>
+        <lineId>kca-vote-bon</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Maroon 5</alt>
+        <description>Maroon 5 sind seit ihrer Schulzeit eine Band. Heute leben die Jungs ihren musikalischen Traum! Sie halten uns mit Singles wie &quot;One More Night&quot; oder &quot;Payphone&quot; am tanzen. Beide Lieder erhielten hohe Chartpositionen. Kein Wunder, dass sie als Lieblingsband 2013 nominiert sind.</description>
+        <link>/abstimmen</link>
+        <name>Maroon 5</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-music-group/maroon-5.jpg</image>
+        <lineId>kca-vote-maroon</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>One Direction</alt>
+        <description>One Direction haben ihren Durchbruch als Solokünstler bei &quot;The X-Factor&quot; geschafft. Das war vor zwei Jahren. Mittlerweile sind sie zusammen als Band unterwegs und wir könnten nicht glücklicher sein. Ob ihnen dieses Teamwork den orangenen Zeppelin bei den KCAs sichert?</description>
+        <link>/abstimmen</link>
+        <name>One Direction</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/local/uk/1D---Approved.jpg</image>
+        <lineId>kca-vote-one-direction-US</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>14</id>
+      <url>favorite_male_singer_mb</url>
+      <ballot>favorite_male_singer_mb</ballot>
+      <name>Lieblings-Sänger</name>
+      <winner>0</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Justin Bieber</alt>
+        <description>Man kann sich kaum noch daran erinnern, wann Justin Bieber mal nicht die Charts angef&amp;uuml;hrt hat. Sein neues Album &quot;Believe&quot; hat uns wieder einmal vor Begeisterung in Ohnmacht fallen lassen. Wir w&amp;uuml;rden die ganze Welt bereisen, um Justin singen zu h&amp;ouml;ren. Lasst uns hoffen, dass er 2013 einen KCA mitnehmen kann.</description>
+        <link>/abstimmen</link>
+        <name>Justin Bieber</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-singer/bieber-1.jpg</image>
+        <lineId>kca-vote-justin</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Bruno Mars</alt>
+        <description>Bruno Mars alias Gene Hernandez kommt von Hawaii und produzierte einige unsere Lieblingslieder der letzten Jahre. Was würden wir ohne &quot;Just the Way You Are&quot; tun? Mal sehen, ob er sich dieses Jahr auch einen Weg durch den KCA-Schleim singen kann.</description>
+        <link>/abstimmen</link>
+        <name>Bruno Mars</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-singer/bruno-alt-mars-1.jpg</image>
+        <lineId>kca-vote-bruno</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Blake Shelton</alt>
+        <description>Yee-ha! Blake Shelton ist ein amerikanischer Countrysänger mit einer unglaublichen Stimme. Es überrascht also nicht, dass er als Lieblingssänger nominiert ist. Wir sind gespannt, ob seine Konkurrenz bei so viel Talent mithalten kann!</description>
+        <link>/abstimmen</link>
+        <name>Blake Shelton</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-singer/shelton-3.jpg</image>
+        <lineId>kca-vote-blake</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Usher</alt>
+        <description>OMG. Usher, du warst dieses Jahr einer unserer Lieblinge. Für Gänsehaut sorgte er 2012 mit seinem Hit &quot;Climax&quot;. Seine langjährige Erfahrung im Musikgeschäft, macht es nicht einfach für seine KCA-Gegner. Usher hätte den orangenen Zeppelin auf jeden Fall verdient!</description>
+        <link>/abstimmen</link>
+        <name>Usher</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-male-singer/alt-usher-2.jpg</image>
+        <lineId>kca-vote-usher</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>15</id>
+      <url>favorite_female_singer_mb</url>
+      <ballot>favorite_female_singer_mb</ballot>
+      <name>Lieblings-Sängerin</name>
+      <winner>1</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Adele</alt>
+        <description>Oh Adeles Stimme ist so wundervoll. Sie ist Sängerin, schreibt ihr Texte selber und spielt auch allerlei Instrumente. Adele kennt keine Ende, wenn es um ihre Musikkarriere geht. Und ihr Erfolg zeigt, dass sie alles richtig macht. Allerlei Preise hat sie mit ihren zwei Alben bereits gewonnen. Aber wird sie auch den Preis als Lieblings-Sängerin mit nach Hause nehmen können?</description>
+        <link>/abstimmen</link>
+        <name>Adele</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-singer/adele-4.jpg</image>
+        <lineId>kca-vote-adele-US</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Katy Perry</alt>
+        <description>Katy Perry verzaubert uns, seitdem sie das erste Mal eine Bühne betreten hat. Mit ihrem Album &lt;i&gt;Teenage Dream&lt;/i&gt; erlangte sie weltweitem Erfolg. Sie wurde die erste Sängerin, die 5 Nummer-1-Hits von einem einzigen Album erreichte. Aber wird sie auch bei den diesjährigen KCA abräumen?</description>
+        <link>/abstimmen</link>
+        <name>Katy Perry</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-singer/perry-3.jpg</image>
+        <lineId>kca-vote-katy</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>P!nk</alt>
+        <description>Wenn man über Frauen-Power redet, kommt man an P!nk nicht vorbei. Seit ihrem ersten Album aus dem Jahr 2000 ist sie nicht mehr aus den Charts wegzudenken. Mit ihren mittlerweile sechs Alben, hat sie weltweit mehr als 40 Millionen Expemplare verkauft. Ob das bei den Kids Choice Awards belohnt wird?</description>
+        <link>/abstimmen</link>
+        <name>P!nk</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-singer/pink-2.jpg</image>
+        <lineId>kca-vote-pink</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Taylor Swift</alt>
+        <description>Taylor Swift hat unsere Herzen als einfaches Mädchen erobert, mittlerweile ist sie ein Superstar. Sie gewann sechsmal die begehrte Grammy-Auszeichnung. Wir sind gespannt, ob diese blonde Schönheit gegen ihre Konkurrenz bei den KCAs bestehen kann.</description>
+        <link>/abstimmen</link>
+        <name>Taylor Swift</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-female-singer/swift-2.jpg</image>
+        <lineId>kca-vote-taylor-swift-2</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>16</id>
+      <url>favorite_song_mb</url>
+      <ballot>favorite_song_mb</ballot>
+      <name>Lieblings-Lied</name>
+      <winner>3</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Call Me Maybe - Carly Rae Jepsen</alt>
+        <description>War Carly Rae Jepsons Lied &lt;i&gt;Call Me Maybe&lt;/i&gt; auch dein Lied des Sommers? Bei weltweit 10 Millionen verkauften Expemplaren, führte 2012 kein Weg an dem Lied vorbei! Das Poplied ist eines der bestverkauften digitalen Singles aller Zeiten. Toppen kann dies nur ein Gewinn bei den KCAs!</description>
+        <link>/abstimmen</link>
+        <name>Call Me Maybe - Carly Rae Jepsen</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-song/call-me-maybe-1920x1440.jpg</image>
+        <lineId>kca-vote-call</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Gangnam Style - PSY</alt>
+        <description>&lt;i&gt;Gangnam Style&lt;/i&gt; hat bewiesen, dass eine Lied nicht immer auf Englisch sein muss, um die Welt zu begeistern. Der koreanische Musiker Psy ist verantwortlich für den Megahit. Der Song stürmte die Charts in über 30 Ländern. Nun fehlt nur noch der orangene KCA-Zeppelin!</description>
+        <link>/abstimmen</link>
+        <name>Gangnam Style - PSY</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-song/gangnam-style-1920x1440.jpg</image>
+        <lineId>kca-vote-gangnam</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>We Are Never Ever Getting Back Together - Taylor Swift</alt>
+        <description>Wenn nur alle Lieder über Liebeskummer so toll sein könnten wie “We Are Never Ever Getting Back Together”. Die Welt könnte so viel einfacher sein. Tayer Swifts Lied war ein Riesenerfolg! Sie erreichte damit erstmals den ersten Platz in den amerikanischen Billboard-Charts. Ob sie auch die Nummer 1 in der Kategorie &quot;Lieblings-Lied&quot; wird?</description>
+        <link>/abstimmen</link>
+        <name>We Are Never Ever Getting Back Together - Taylor Swift</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-song/we-are-never-ever-getting-back-together-1920x1440.jpg</image>
+        <lineId>kca-vote-never</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>What Makes You Beautiful - One Direction</alt>
+        <description>One Direction haben uns mit &quot;What Makes You Beautiful” gezeigt, dass man zu sich selber stehen soll. Seitdem sind wir treue Fans! Aber auch die anderen Lieder ihres Debütalbum &quot;Up All Night&quot; haben einen großen Eindruck hinterlassen. Werden One Direction auch bei den KCAs abräumen?</description>
+        <link>/abstimmen</link>
+        <name>What Makes You Beautiful - One Direction</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/main/favorite-song/what-makes-you-beautiful-1920x1440.jpg</image>
+        <lineId>kca-vote-beautiful</lineId>
+      </nominees>
+    </categories>
+    <categories>
+      <id>17</id>
+      <url>favorite_german_star_mb</url>
+      <ballot>0</ballot>
+      <name>Lieblingsstar: Deutschland, Österreich, Schweiz</name>
+      <winner>0</winner>
+      <nominees>
+        <id>0</id>
+        <alt>Luca Hänni</alt>
+        <description>Der Schweizer ist der bislang j&amp;uuml;ngste Gewinner von &quot;Deutschland sucht den Superstar&quot;. Schon fr&amp;uuml;h hat sich Luca auf dem Schlagzeug musikalisch ausgetobt, sp&amp;auml;ter entdeckte er seine Leidenschaft f&amp;uuml;r Gitarre, Klavier und Gesang. Sein erstes Album &amp;bdquo;My Name is Luca&quot; schaffte es in den Charts bis ganz nach oben.Wird er auch bei der Wahl zum &amp;bdquo;Lieblingsstar: Deutschland, &amp;Ouml;sterreich, Schweiz&quot; auf Platz 1 landen?</description>
+        <link>/abstimmen</link>
+        <name>Luca Hänni</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/local/north/Germany-Austria-Switzerland/GER1_Luca_Hanni_CREDITStba.jpg</image>
+        <lineId>kca-vote-luca-hanni</lineId>
+      </nominees>
+      <nominees>
+        <id>1</id>
+        <alt>Cro</alt>
+        <description>Er ist ein absolutes Multitalent: Musiker, Produzent, Designer und Cartoonist! Mit Songs wie &amp;bdquo;Easy&quot; und &amp;bdquo;Du&quot; lieferte der Rapper mit der Panda-Maske einige der gr&amp;ouml;&amp;szlig;ten Hits des vergangenen Jahres. &amp;bdquo;Hi Kids&quot; rappt Cro &amp;bdquo;werft die Arme hoch und gebt mir ein Hallo!&quot;. Klingt gut! Vielleicht wird er ja mit dieser Ansage auch eure Stimmen bei den Kids&apos; Choice Awards f&amp;uuml;r sich gewinnen.</description>
+        <link>/abstimmen</link>
+        <name>Cro</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/local/north/Germany-Austria-Switzerland/GER2_Cro_CREDITStba.jpg</image>
+        <lineId>kca-vote-cro</lineId>
+      </nominees>
+      <nominees>
+        <id>2</id>
+        <alt>Lena</alt>
+        <description>F&amp;uuml;r ihr aktuelles Album reiste die charmante S&amp;auml;ngerin quer durch Europa. Weshalb? Um mit internationalen Stars an Melodien und Texten zu t&amp;uuml;fteln. Herausgekommen sind neue Hits wie &amp;bdquo;ASAP&quot; &amp;ndash; einen Song, den sie schrieb als sie in Schweden ihren Freund vermisste. Lena hat schon viele Awards abger&amp;auml;umt und immer wieder das Publikum verzaubert. Wird sie auch die Kids&apos; Choice Awards f&amp;uuml;r sich entscheiden?</description>
+        <link>/abstimmen</link>
+        <name>Lena</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/local/north/Germany-Austria-Switzerland/GER3_Lena_2.jpg</image>
+        <lineId>kca-vote-lena</lineId>
+      </nominees>
+      <nominees>
+        <id>3</id>
+        <alt>Daniele Negroni</alt>
+        <description>2012 startete Daniele Negroni so richtig durch: Erst schnappte er sich den zweiten Platz bei &amp;bdquo;Deutschland sucht den Superstar&quot; und dann kletterte sein Album &amp;bdquo;Crazy&quot; auf die Toppl&amp;auml;tze der Charts. So bunt und vielseitig wie Danieles Songs sind auch seine Frisuren. Fast so bunt wie der orangene Blimp, den er mit eurer Unterst&amp;uuml;tzung bei den Kids&apos; Choice Awards gewinnen k&amp;ouml;nnte.</description>
+        <link>/abstimmen</link>
+        <name>Daniele Negroni</name>
+        <image>http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/kidschoiceawards.com/2013/images/nominees/local/north/Germany-Austria-Switzerland/GER4_Daniele_Negroni_CREDITStba.jpg</image>
+        <lineId>kca-vote-daniele-negroni</lineId>
+      </nominees>
+    </categories>
+  </item>
+</json>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!-- 
+    Document   : SIE-412
+    Created on : 25.02.2013, 13:49:35
+    Author     : tnikolay
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0" xmlns:s="/struts-tags" xmlns="http://www.w3.org/1999/xhtml">
+    <jsp:directive.page contentType="text/html" />
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>Replace FeedCaches</title>
+        </head>
+        <body>
+            <b>Current Time: </b><s:date name="new java.util.Date()" format="dd.MM.yyyy HH:mm:ss z"/><br />
+            <div class="contentBlock">
+                <table>
+                    <s:iterator value="cacheManagerStatus">
+                        <tr>
+                            <td><s:property value="key" /></td><td><s:property value="value" /></td>
+                        </tr>
+                    </s:iterator>
+                </table>
+            </div>
+            <div class="contentBlock">
+                content of the test cache - it should available one property per server node<br/>
+                <table>
+                    <s:iterator value="cacheSyncTestEntries">
+                        <tr>
+                            <td><s:property value="key" /></td><td><s:property value="value" /></td>
+                        </tr>
+                    </s:iterator>
+                </table>
+            </div>	
+            <div class="contentBlock">
+                <table>
+                    <thead>
+                        <s:iterator begin="0" end="0" value="cacheStatuse" var="cacheProperties">
+                            <s:iterator value="cacheProperties">
+                                <th><s:property value="key" /></th>
+                                </s:iterator>                            
+                            </s:iterator>
+                    </thead>
+                    <s:iterator value="cacheStatuse" var="cacheProperties">
+                        <tr>
+                            <s:iterator value="cacheProperties">
+                                <td><s:property value="value"/></td>
+                            </s:iterator>
+                        </tr>
+                    </s:iterator>
+                </table>
+            </div>	
+            <div class="contentBlock">
+                System properties:<br/>
+                <table>
+                    <thead>
+
+                        <th>key</th>
+                        <th>value</th>
+                    </thead>
+                    <s:iterator value="systemProperties">
+                        <tr>
+                            <td><s:property value="key"/></td>
+                            <td><s:property value="value"/></td>
+                        </tr>
+                    </s:iterator>
+                </table>
+            </div>	
+        </body>
+    </html>
+</jsp:root>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0" xmlns:s="/struts-tags" xmlns="http://www.w3.org/1999/xhtml">
+    <jsp:directive.page contentType="text/html" />
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <jsp:element name="link">
+                <jsp:attribute name="rel">stylesheet</jsp:attribute>
+                <jsp:attribute name="type">text/css</jsp:attribute>
+                <jsp:attribute name="href"><s:url value="/styles/styles.css" /></jsp:attribute>
+            </jsp:element>
+            <title>Replace Messaging Test Page</title>
+        </head>
+        <body>
+            <b>Current Time: </b><s:date name="new java.util.Date()" format="dd.MM.yyyy HH:mm:ss z"/><br />
+            <b>List of test message: </b><br />
+            <div class="contentBlock">
+                <table>
+                    <s:iterator value="list">
+                        <tr>
+                            <td><s:property/></td>
+                        </tr>
+                    </s:iterator>
+                </table>
+            </div>                        
+        </body>
+    </html>
+</jsp:root>

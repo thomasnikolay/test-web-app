@@ -1,0 +1,113 @@
+
+<esi:try>	<esi:attempt>
+		<esi:eval src="http://mobile-redirect.mtvnservices.com/include.esi" dca="esi" maxwait="5000" />
+	</esi:attempt>
+</esi:try>
+
+		<esi:text>
+		</esi:text>
+HTTP/1.1 200 OK
+Date: Thu, 18 Apr 2013 06:16:56 GMT
+Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8t-fips PHP/5.3.16
+X-Powered-By: PHP/5.3.16
+X-Pingback: http://www.thefablife.com/xmlrpc.php
+Last-Modified: Wed, 17 Apr 2013 15:47:47 GMT
+ETag: "6bf265dc75759aae60c857c770235dc5"
+Link: <http://www.vh1.com/celebrity/?p=296442>; rel=shortlink
+X-Cache-Term: short
+Edge-control: dca=esi, !no-store, max-age=30m, downstream-ttl=30m
+Content-Length: 6298
+Keep-Alive: timeout=5, max=94
+Connection: Keep-Alive
+Content-Type: text/xml; charset=UTF-8
+
+<?xml version="1.0" encoding="UTF-8"?>
+<esi:try>
+	<esi:attempt>
+		<esi:eval src="http://mobile-redirect.mtvnservices.com/include.esi" dca="esi" maxwait="5000" />
+	</esi:attempt>
+</esi:try>
+<esi:assign name="was_commented" value="false"/>
+<esi:assign name="postID" value="296442"/>
+<esi:foreach item="commented_pid" collection="$string_split($(HTTP_COOKIE{'Serve-Fresh'}), '|')">
+	<esi:choose>
+		<esi:when test="$(commented_pid) == $(postID)">
+			<esi:assign name="was_commented" value="true"/>
+			<esi:break/>
+		</esi:when>
+	</esi:choose>
+</esi:foreach>
+<esi:choose>
+	<esi:when test="$(was_commented) == 'true'">
+			<esi:include src="http://$(HTTP_HOST)$(REQUEST_PATH)" ttl="0" no-store="on" dca="esi" removeheader="Accept-ESI" appendheader="X-Fresh: true"/>
+	</esi:when>
+	<esi:otherwise>
+		<esi:text>
+
+
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	 xmlns:gdm-mobile="http://mtvn.com/gdm/mobile/"  xmlns:advertorial="http://wordpress.mtvn.com/plugins/MTVNAdvertorials" xmlns:media="http://search.yahoo.com/mrss/"  xmlns:wpmeta="http://mtvn.com/wordpress/meta/" >
+
+<channel>
+	<title>VH1 Celebrity &#187; Last Lap: Is Carey Mulligan Like A Kardashian?</title>
+	<atom:link href="http://www.vh1.com//2013-04-15/last-lap-is-carey-mulligan-like-a-kardashian/feed?gdm_mobile" rel="self" type="application/rss+xml" />
+	<link>http://www.vh1.com/celebrity</link>
+	<description>VH1 Celebrity: celebrity news, gossip, celeb photos and red carpet fashion + Best Week Ever pop culture commentary, memes and the best from around the internet.</description>
+	<lastBuildDate>Thu, 18 Apr 2013 05:58:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Last Lap: Is Carey Mulligan Like A Kardashian?</title>
+		<link>http://www.vh1.com/celebrity/2013-04-15/last-lap-is-carey-mulligan-like-a-kardashian/</link>
+		<comments>http://www.vh1.com/celebrity/2013-04-15/last-lap-is-carey-mulligan-like-a-kardashian/#comments</comments>
+		<pubDate>Mon, 15 Apr 2013 22:00:51 +0000</pubDate>
+		<dc:creator>Meghan O'Keefe</dc:creator>
+				<category><![CDATA[ROOT]]></category>
+		<category><![CDATA[MTV Movie Awards]]></category>
+		<category><![CDATA[NewNowNext Awards]]></category>
+
+		<guid isPermaLink="false">http://www.vh1.com/celebrity/?p=296442</guid>
+		<description><![CDATA[Where can you see exclusive sneak peaks of Iron Man 3, Fast &#038; Furious 6 and The Heat? What does Andrew Rannells think about nude scenes in Girls?  And why is Oscar film mogul Harvey Weinstein feeling like a winner today?]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.thefablife.com/files/2013/04/last_lap_celeb_415.jpg"><img class="aligncenter size-full wp-image-296443" alt="last_lap_celeb_415" src="http://www.thefablife.com/files/2013/04/last_lap_celeb_415.jpg" width="615" height="462" /></a></p>
+<p>Where can you see exclusive sneak peaks of Iron Man 3, Fast &amp; Furious 6 and The Heat? What does Andrew Rannells think about nude scenes in Girls?Â Â And why is Oscar film mogul Harvey Weinstein feeling like a winner today?Â All this in today&#8217;s Last Lap.</p>
+<p><span id="more-296442"></span></p>
+<ul>
+<li><em>The Great Gatsby</em>&#8216;s <strong>Carey Mulligan</strong> is donning flapper style for this month&#8217;s edition of Vogue. In the magazine, Mulligan gets compared to a Kardashian&#8211;which she promptly denies. For more, check out the article at <a href="http://www.vogue.com/magazine/article/great-expectations-carey-mulligan-as-daisy-buchanan-in-the-great-gatsby/#1">Vogue.com</a>.</li>
+</ul>
+<ul>
+<li>Last night&#8217;s <strong><a href="http://www.mtv.com/ontv/movieawards/2013/">MTV Movie Awards</a></strong> not only celebrated the coolest moments in film over the past year, but also gave movie fans a sneak peak at the awesome flicks coming out in 2013. Viewers got an exclusive first look at <em><a href="http://on.mtv.com/ZjKK17">Iron Man 3</a>,Â <a href="http://on.mtv.com/Zkgt2c">Fast &amp; Furious 6Â </a>Â </em>andÂ <em id="__mceDel"><a href="http://on.mtv.com/113kHeL">The Heat</a>.</em> [<a href="http://www.mtv.com/ontv/movieawards/2013/">MTV.com</a>]</li>
+</ul>
+<ul>
+<li>The <strong><a href="http://www.newnownext.com/awards/">2013 NewNowNext Awards</a></strong>Â air tonight on LOGO at 10/9 Central and <em>Girls</em> star Andrew Rannells will be there! Check out a sneak peak from the Purple Carpet, where Rannells dishes about being on <em>Girls</em> and having fake sex with NNN Awards nominee, <strong>Allison Williams</strong>. [<a href="http://www.newnownext.com/andrew-rannells-talks-getting-naked-on-girls-logo-newnownext-awards/04/2013/">NewNowNext.com</a>]</li>
+</ul>
+<ul>
+<li>Famous movie mogul Harvey Weinstein and his wife, Marchesa designer <strong>Georgina Chapman</strong>, welcomed a baby boy last week. It&#8217;s the second child for the couple and the first son for Weinstein who has three daughters from a previous marriage and a two year old daughter with Chapman. [<a href="http://celebritybabies.people.com/2013/04/15/harvey-weinstein-georgina-chapman-welcome-son/">People.com</a>]</li>
+</ul>
+<p>[Photo Credit: Vogue.com]</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.vh1.com/celebrity/2013-04-15/last-lap-is-carey-mulligan-like-a-kardashian/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+
+	<media:thumbnail url="http://www.thefablife.com/files/2013/04/last_lap_celeb_415.jpg" type="image/jpeg">http://www.thefablife.com/files/2013/04/last_lap_celeb_415.jpg</media:thumbnail>
+
+	<media:content url="http://www.thefablife.com/files/2013/04/last_lap_celeb_415.jpg" type="image/jpeg" isDefault="true">
+					</media:content>
+<wpmeta:data>
+																																																								<wpmeta:postmeta key="obembed_shortcode_data"><![CDATA[Array]]></wpmeta:postmeta>
+										</wpmeta:data>
+	</item>
+	</channel>
+</rss>
+		</esi:text>
+	</esi:otherwise>
+</esi:choose>

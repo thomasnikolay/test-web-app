@@ -5,6 +5,7 @@
 
 <struts><!-- Configuration for the default package. -->    
     <constant name="struts.devMode" value="true" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
         
     <package name="net.tn.struts" namespace="/struts-actions" extends="struts-default">               
         <action name="receiver" class="net.tn.struts.actions.ReceiveRequest">
@@ -15,6 +16,22 @@
         </action>
         <action name="sup-16759-2" class="net.tn.issues.actions.Sup16759Smart2">
             <result name="success">/struts-pages/dummy.jspx</result>
+        </action>
+        <action name="read-jndi" class="net.tn.struts.actions.JndiReader">
+            <result name="success">/struts-pages/dummy.jspx</result>
+        </action>
+        <action name="lazy" class="net.tn.struts.actions.LazyAction">
+            <result name="success" type="stream">
+                <param name="contentType">text/xml</param>
+                <param name="inputName">io</param>                        
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="test-cache" class="net.tn.struts.actions.CacheContentsAction" method="collectCacheInformation">
+            <result name="success">/struts-pages/struts-tests.jspx</result>
+        </action>
+        <action name="test-messaging" class="net.tn.struts.actions.MessagingTestAction">
+            <result name="success">/struts-pages/messaging.jspx</result>
         </action>
     </package>
 </struts>

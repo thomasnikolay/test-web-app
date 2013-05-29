@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+      
+    <appender name="WebApplication" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="datePattern" value="'.'yyyy-MM-dd" />
+        <param name="file" value="${netbiscuits.webapps.log.dir}${file.separator}test-web-app${file.separator}${jboss.host.name}-${jboss.server.name}.log"/>
+        <param name="Append" value="true" />
+        <param name="threshold" value="DEBUG" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p [${jboss.node.name}] [%c:] (%t) %m%n" />
+        </layout>
+    </appender>
+       
+    <logger name="net">
+        <level value="INFO"/>               
+    </logger>
+    
+    <logger name="org.apache.struts2">
+        <level value="INFO"/>
+    </logger>
+    
+    <logger name="com.opensymphony">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="org.tuckey.web.filters.urlrewrite">
+        <level value="INFO"/>
+    </logger>
+    
+    <category name="org.infinispan">
+        <priority value="DEBUG"/>
+    </category>
+
+    <category name="org.infinispan.distribution">
+        <priority value="DEBUG"/>
+    </category>
+
+    <category name="org.infinispan.marshall">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.infinispan.profiling">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.infinispan.jmx">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.infinispan.factories">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.infinispan.client.hotrod">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.infinispan.lucene">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="com.mchange">
+        <priority value="WARN"/>
+    </category>
+
+    <category name="org.jgroups">
+        <priority value="DEBUG"/>
+    </category>
+
+    <root>	
+        <priority value="INFO"/>
+        <appender-ref ref="WebApplication"/>        
+    </root>
+
+</log4j:configuration>

@@ -19,6 +19,7 @@
         <h3>Struts Example Actions</h3>
         <ul>
             <li>request receiver: <a href="struts-actions/receiver.action">link</a></li>
+            <li>test-cache: <a href="struts-actions/test-cache.action">test-cache</a></li>
         </ul>
         <h3>another examples</h3>
         <ul>

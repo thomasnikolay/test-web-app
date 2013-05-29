@@ -5,10 +5,8 @@
 package net.tn.issues.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Enumeration;
@@ -17,7 +15,6 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import org.apache.commons.io.IOUtils;
 
 /**
  *
@@ -61,11 +58,11 @@ public class Sup16759Smart2 extends ActionSupport implements Runnable {
                     InputStream is = zipFile.getInputStream(entry);
                     StreamSource ss = new StreamSource(is);
 
-                    TransformerFactory factory = new TransformerFactoryImpl();
-
-                    Transformer t = factory.newTransformer(new StreamSource(getClass().getResourceAsStream("sample.xsl")));
-                    OutputStream os = new FileOutputStream(basePath + "\\" + entry.getName());
-                    t.transform(ss, new StreamResult(os));
+//                    TransformerFactory factory = new TransformerFactoryImpl();
+//
+//                    Transformer t = factory.newTransformer(new StreamSource(getClass().getResourceAsStream("sample.xsl")));
+//                    OutputStream os = new FileOutputStream(basePath + "\\" + entry.getName());
+//                    t.transform(ss, new StreamResult(os));
 
 //                    is.close();
 //                    os.close();

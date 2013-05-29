@@ -12,7 +12,8 @@
     <jsp:element name="text">
         <jsp:attribute name="lang">EN</jsp:attribute>
         <jsp:body>
-            <a href="SIE-412.jspx">SIE-412</a>
+            <a href="sie412/SIE-412.jspx">SIE-412</a><br>
+            <a href="sup17838/sup17838.xml">SUP-17838</a><br>
         </jsp:body>
     </jsp:element>
 
