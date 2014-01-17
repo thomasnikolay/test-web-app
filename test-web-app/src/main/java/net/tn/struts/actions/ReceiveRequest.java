@@ -10,6 +10,7 @@ import java.util.Enumeration;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.io.IOUtils;
 import org.apache.struts2.interceptor.ServletRequestAware;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -54,10 +55,10 @@ public class ReceiveRequest extends ActionSupport implements ServletRequestAware
     
     private class Logger{
 
-        
         public Logger() {
         }
         public void info(String msg){
+            LoggerFactory.getLogger(ReceiveRequest.class).info(msg);
             System.out.println(msg);
             outputString.append(msg);
         }

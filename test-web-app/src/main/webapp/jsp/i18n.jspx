@@ -1,0 +1,16 @@
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0" xmlns:s="/struts-tags" 
+          xmlns:fmt="http://java.sun.com/jsp/jstl/fmt" 
+          xmlns:c="http://java.sun.com/jsp/jstl/core" 
+          xmlns:fn="http://java.sun.com/jsp/jstl/functions" >
+
+    <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          output-encoding="UTF-8" 
+          title="i18n" 
+          xsd-version="1.12" 
+          xsi:nonamespaceschemalocation="http://www.netbiscuits.com/schema/netbiscuits-1.12.xsd"> 
+        
+        <TEXT>
+        <richtext></richtext>
+        </TEXT>
+    </page>
+</jsp:root>

@@ -1,122 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><page>
-    <attribute name="id">isunit://mpc-cz/cs_CZ/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/TailorMadeGalerie.xml</attribute>
-    <attribute name="url">/cz/smart-brabus-tailor-made/7c94e8d1-9eb3-59d0-a3ec-2f3b7fbb098e</attribute>
-    <attribute name="guid">7c94e8d1-9eb3-59d0-a3ec-2f3b7fbb098e</attribute>
-    <attribute name="name">smart BRABUS tailor made</attribute>
-    <attribute name="site">mpc-cz</attribute>
-    <attribute name="locale">cs_CZ</attribute>
-    <attribute name="valid.from">30-Sep-2010 03:54:00 pm</attribute>
-    <attribute name="layout-type">galerie</attribute>
-    <attribute name="title">smart-BRABUS tailor made - gallery</attribute>
-    <attribute name="description">smart BRABUS tailor made: lots of scope for individuality. Take a look at our gallery for some inspiration.</attribute>
-    <attribute name="keywords">smart, BRABUS, smart fortwo, craftsmanship, unique, tailor made, coupé, cabrio, cdi, gallery</attribute>
-    <attribute name="omniture.s.channel">Galérie</attribute>
-    <attribute name="omniture.s.prop7">smart BRABUS tailor made</attribute>
-    <element role="logo">
-        <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-content-Site/-/-/img/logo.jpg</attribute>
-        <attribute name="src.type">image</attribute>
-        <attribute name="ref">/cz/dom%c5%af/646351a7-7bd3-57f7-a2c7-99aecbb0dd17</attribute>
-        <attribute name="ref.type">page</attribute>
-        <attribute name="ref.valid.from">11-Mar-2010 03:54:00 pm</attribute>
-    </element>
-    <element role="navigation-meta">
-        <element role="link">
-            <attribute name="ref">/cz/poskytovatel/e637b1ba-4d2c-5ef3-bf92-06038624d3e8</attribute>
-            <attribute name="ref.type">page</attribute>
-            <attribute name="ref.valid.from">23-Feb-2010 12:12:00 pm</attribute>
-            <attribute name="txt">Poskytovatel</attribute>
-        </element>
-        <element role="link">
-            <attribute name="ref">/cz/ochrana-dat/10ff8020-5cc1-5c32-afcf-bbc3468891a1</attribute>
-            <attribute name="ref.type">page</attribute>
-            <attribute name="ref.valid.from">23-Feb-2010 12:13:00 pm</attribute>
-            <attribute name="txt">Ochrana dat</attribute>
-        </element>
-    </element>
-    <element role="navigation-back">
-        <attribute name="ref"></attribute>
-        <attribute name="ref.editable">no</attribute>
-        <attribute name="ref.type">page</attribute>
-        <attribute name="prefix">zpět</attribute>
-        <attribute name="ref.mode">dynamic</attribute>
-    </element>
-    <element role="image-gallery">
-        <attribute name="prev">zpět</attribute>
-        <attribute name="next">další</attribute>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/01.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/02.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/03.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/04.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/05.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/06.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/07.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/08.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/09.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/10.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/11.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/12.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/13.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/14.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-        <element role="visual">
-            <attribute name="src">http://www.smart.com/is-bin/intershop.static/WFS/mpc-cz-Site/-/Editions/Root%20Edition/units/mpc-cz/default/ng/mobile/2010/fortwo/ausstattung/tailormade/galerie/media/15.jpg</attribute>
-            <attribute name="src.type">image</attribute>
-            <attribute name="caption"></attribute>
-        </element>
-    </element>
-</page>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_VehAvailRateRQ xmlns="http://www.opentravel.org/OTA/2003/05" Version="2" PrimaryLangID="en">
+    <POS>
+        <Source PseudoCityCode="MOBE66" ISOCountry="us">
+            <RequestorID Type="ARC" ID=""/>
+            <ISOCountry>US</ISOCountry>
+        </Source>
+    </POS>
+    <VehAvailRQCore Status="Available">
+        <VehRentalCore PickUpDateTime="2013-06-17T12:00:00.000Z" ReturnDateTime="2013-06-20T12:00:00.000Z">
+            <PickUpLocation LocationCode="U146"/>
+            <ReturnLocation LocationCode="U146"/>
+        </VehRentalCore>
+        <DriverType Age="25" Code="10" CodeContext="AQC"/>
+    </VehAvailRQCore>
+</OTA_VehAvailRateRQ>
