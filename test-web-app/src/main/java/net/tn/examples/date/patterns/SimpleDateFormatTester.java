@@ -16,16 +16,13 @@ import java.util.Locale;
 public class SimpleDateFormatTester {
 
     public static void main(String[] args) {
-        String exampleDate = "2013-05-07@14:47:05 CET";
-        String inputPattern = "yyyy-MM-dd'@'HH:mm:ss z";
-        String outputPattern = "EEE',' dd MMM yyyy HH:mm:ss z";
+        String exampleDate = "03/12/1984";
+        String inputPattern = "MM/dd/yyyy";        
         
-        SimpleDateFormat sdf = new SimpleDateFormat(inputPattern, Locale.ENGLISH);
-        SimpleDateFormat odf = new SimpleDateFormat(outputPattern,Locale.ENGLISH);
+        SimpleDateFormat sdf = new SimpleDateFormat(inputPattern);        
         try {
             Date date = sdf.parse(exampleDate);
-            System.out.println("input: " + date.toString());
-            System.out.println("output: " + odf.format(date).toString());
+            System.out.println("input: " + date.toString());            
         } catch (ParseException ex) {
             ex.printStackTrace();
         }

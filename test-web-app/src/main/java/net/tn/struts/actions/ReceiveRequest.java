@@ -34,21 +34,22 @@ public class ReceiveRequest extends ActionSupport implements ServletRequestAware
         Logger log = new Logger();
         
         log.info("incoming request at "+new Date());
-        log.info("\turl: "+request.getRequestURL());
-        log.info("\tmethod: "+request.getMethod());
-        log.info("\theader: "+request.getMethod());
+        log.info("\n\n\turl: "+request.getRequestURL());
+        log.info("\n\n\tmethod: "+request.getMethod());
+        log.info("\n\n\theader: "+request.getMethod());
+        log.info("\n\n\tfrom: "+request.getRemoteAddr());
+        log.info("\n\n\tfrom host: "+request.getRemoteAddr());        
         
         Enumeration headernames = request.getHeaderNames();
         
         while(headernames.hasMoreElements())
         {
             String headerName = (String) headernames.nextElement();
-            log.info("\t\t "+ headerName + " = "+request.getHeader(headerName));
+            log.info("\n\t\t "+ headerName + " = "+request.getHeader(headerName));
         }
         
-        log.info("\tbody: ");
-        log.info("\t\t"+IOUtils.toString(request.getInputStream()));
-        log.info("\n\n"+IOUtils.toString(request.getInputStream()));        
+        log.info("\n\n\tbody: ");
+        log.info("\t\t"+IOUtils.toString(request.getInputStream()));        
         
         return SUCCESS;
     }

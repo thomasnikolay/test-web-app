@@ -17,7 +17,7 @@ public class Sockets {
         try {
             throw new java.net.SocketTimeoutException();
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.out.println(ex.getStackTrace()[0]);
         }
     }
 }
