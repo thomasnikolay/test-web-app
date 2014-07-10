@@ -46,7 +46,7 @@ public class FTPUploaderTest implements Runnable {
 //    final static String baseTranscodingURL = "";
     final static String filename = "il.zip";
     final static String inputfile = "c:\\temp\\Smart\\ftp\\xpages\\il.zip";
-    final static String notificationUrl = "http://twa.tn.apps.netbiscuits.com/struts-actions/sup-16759.action";
+    final static String notificationUrl = "";
     static String transcodingUrl;
 
     public void uploadSmart() {

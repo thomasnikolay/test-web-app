@@ -31,7 +31,7 @@ public class Main {
 
     static {
         try {
-            url = new URL("https://apps.netbiscuits.com/195634/Admin/golive.do");
+            url = new URL("");
             java.lang.System.setOut(new PrintStream(new FileOutputStream(new File("c:\\test-hau-mich-blau-2.log"))));
         } catch (MalformedURLException ex) {
             ex.printStackTrace();

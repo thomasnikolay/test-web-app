@@ -18,5 +18,11 @@ public class Test {
         test.put("lol", null);
         System.out.println(test.get("lol"));
         System.out.println(test.containsKey("lol"));
+        try {
+          Thread.sleep(101);
+        }
+        catch(InterruptedException e) {
+          
+        }
     }
 }
