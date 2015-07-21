@@ -57,10 +57,10 @@
             <version>3.2</version>
         </dependency>
         <dependency>
-	<groupId>org.apache.commons</groupId>
-	<artifactId>commons-lang3</artifactId>
-	<version>3.4</version>
-</dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
 
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -98,23 +98,17 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.2</version>
         </dependency>
-                
-<!--        <dependency>
-            <groupId>com.db4o.base</groupId>
-            <artifactId>db4o-core-java12</artifactId>
-            <version>7.9.90.12967</version>
-        </dependency>
-        -->
+                       
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>18.0</version>
         </dependency>
-<dependency>
-	<groupId>org.javassist</groupId>
-	<artifactId>javassist</artifactId>
-	<version>3.13.0-GA</version>
-</dependency>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.13.0-GA</version>
+        </dependency>
 
     </dependencies>
     <groupId>net.tn</groupId>
