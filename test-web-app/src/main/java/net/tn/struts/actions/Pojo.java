@@ -11,7 +11,11 @@ import java.io.Serializable;
  * @author tnikolay
  */
 public class Pojo implements Serializable{
-    private String name;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String name;
     private String vorName;
 
     public String getName() {

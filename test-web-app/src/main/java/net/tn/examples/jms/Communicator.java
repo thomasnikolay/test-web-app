@@ -14,7 +14,9 @@ import javax.jms.TopicSession;
 import javax.jms.TopicSubscriber;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
+
 import net.tn.examples.cache.inifinispan.CacheManager;
+
 import org.slf4j.LoggerFactory;
 
 /**

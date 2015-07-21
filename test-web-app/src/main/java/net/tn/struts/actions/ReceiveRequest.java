@@ -4,13 +4,16 @@
  */
 package net.tn.struts.actions;
 
-import com.opensymphony.xwork2.ActionSupport;
 import java.util.Date;
 import java.util.Enumeration;
+
 import javax.servlet.http.HttpServletRequest;
+
 import org.apache.commons.io.IOUtils;
 import org.apache.struts2.interceptor.ServletRequestAware;
 import org.slf4j.LoggerFactory;
+
+import com.opensymphony.xwork2.ActionSupport;
 
 /**
  *
@@ -18,7 +21,11 @@ import org.slf4j.LoggerFactory;
  */
 public class ReceiveRequest extends ActionSupport implements ServletRequestAware {
 
-    private HttpServletRequest request;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private HttpServletRequest request;
     private StringBuilder outputString = new StringBuilder();
 
     @Override
@@ -40,7 +47,8 @@ public class ReceiveRequest extends ActionSupport implements ServletRequestAware
         log.info("\n\n\tfrom: "+request.getRemoteAddr());
         log.info("\n\n\tfrom host: "+request.getRemoteAddr());        
         
-        Enumeration headernames = request.getHeaderNames();
+        @SuppressWarnings("rawtypes")
+		Enumeration headernames = request.getHeaderNames();
         
         while(headernames.hasMoreElements())
         {

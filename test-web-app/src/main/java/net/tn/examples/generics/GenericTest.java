@@ -14,5 +14,6 @@ import java.util.Map;
 public class GenericTest {
     public static void main(String[] args) {
         Map<String, ? extends Number> test = new HashMap<String, Integer>();
+        test.put("test", null);
     }
 }

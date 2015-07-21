@@ -11,5 +11,11 @@ package net.tn.examples.cast.nullcast;
 public class Null {
     public static void main(String[] args) {
         System.out.println((String)null);
+        
+        if(null instanceof Integer){
+            System.out.println("Krass");
+        }else{
+            System.err.println("Klar");
+        }
     }
 }

@@ -4,7 +4,6 @@
  */
 package net.tn.examples.file;
 
-import java.util.zip.*;
 
 /**
  *

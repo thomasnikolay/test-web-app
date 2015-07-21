@@ -7,7 +7,9 @@ package net.tn.tools.cron.tester;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import org.quartz.Job;
+import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.quartz.Scheduler;
@@ -26,6 +28,8 @@ public class QuartzTest implements Job {
 
         try {
             Scheduler schedule = schedulerFactory.getScheduler();
+            
+            schedule.scheduleJob(, null)
             schedule.start();
         } catch (SchedulerException ex) {
             Logger.getLogger(QuartzTest.class.getName()).log(Level.SEVERE, null, ex);

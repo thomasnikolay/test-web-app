@@ -8,8 +8,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.w3c.dom.Document;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.InputSource;
@@ -63,6 +65,7 @@ public class Checker {
             });
 
             Document document = builder.parse(new InputSource(is));
+            System.out.println(document);
         } catch (Exception e) {
             System.err.println(e.getMessage());
             e.printStackTrace();

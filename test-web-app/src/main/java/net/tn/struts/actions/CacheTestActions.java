@@ -5,10 +5,8 @@
 package net.tn.struts.actions;
 
 import java.util.Map;
+
 import net.tn.examples.cache.inifinispan.CacheManager;
-import org.infinispan.Cache;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  *

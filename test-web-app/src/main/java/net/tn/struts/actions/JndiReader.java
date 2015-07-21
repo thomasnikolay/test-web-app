@@ -4,13 +4,13 @@
  */
 package net.tn.struts.actions;
 
-import com.opensymphony.xwork2.ActionSupport;
-import java.util.Properties;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NameClassPair;
 import javax.naming.NamingEnumeration;
 import javax.naming.NamingException;
+
+import com.opensymphony.xwork2.ActionSupport;
 
 /**
  *
@@ -24,9 +24,7 @@ public class JndiReader extends ActionSupport {
 
     @Override
     public String execute() throws Exception {
-        System.out.println("\nJNDI-Context-Listing:\n");
-
-        final Properties env = new Properties();
+        System.out.println("\nJNDI-Context-Listing:\n");       
 
         System.out.println("only this top level entries avavailable");
 

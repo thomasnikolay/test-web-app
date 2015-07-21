@@ -1,7 +1,5 @@
 package net.tn.examples.charset;
 
-import java.nio.charset.Charset;
-import java.util.Map;
 
 
 public class CharSet {

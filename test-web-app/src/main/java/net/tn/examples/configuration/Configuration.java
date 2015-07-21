@@ -6,6 +6,7 @@ package net.tn.examples.configuration;
 
 import java.io.InputStream;
 import java.util.List;
+
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.XMLConfiguration;
 
@@ -25,7 +26,8 @@ public final class Configuration {
 	    return getDefault().getXmlConfig().getString(key);
 	}	
         
-        public List<String> getList(){
+        @SuppressWarnings("unchecked")
+		public List<String> getList(){
             return getDefault().getXmlConfig().getList(key);
         }
 	

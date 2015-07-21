@@ -40,11 +40,7 @@ public class CacheManager {
     private static CacheMode fallbackCacheMode = null;
     private static DefaultCacheManager manager;
     private static final String UNIQUE_CACHE_IDENTIFIER = "_" + "TEST";
-    private static final long ONE_MINUTE_IN_MILLIS = 60000L;
-    private static final long ONE_HOUR_IN_MILLIS = 360000L;
     private static final long HALF_DAY_IN_MILLIS = 43200000L;
-    private static final long ONE_DAY_IN_MILLIS = 86400000L;
-    private static final long TWO_DAYS_IN_MILLIS = 172800000L;
     private static final long THREE_DAYS_IN_MILLIS = 259200000L;
     private static CacheManager instance = new CacheManager();
     private static double maxEntriesFactor = 1.0;
@@ -107,8 +103,8 @@ public class CacheManager {
     
     private CacheManager() {
         if (manager == null) {
-            final double maxEntriesFactorTmp = 1.0;
-            this.maxEntriesFactor = maxEntriesFactorTmp != 0 ? maxEntriesFactorTmp : this.maxEntriesFactor;
+//            final double maxEntriesFactorTmp = 1.0;
+//            this.maxEntriesFactor = maxEntriesFactorTmp != 0 ? maxEntriesFactorTmp : this.maxEntriesFactor;
 
 //            currently is it not possible to use the standard infinispan from the JBoss Enviroment
 //            because there exist a bug on the classloader assigment on embeded cache up to JBoss 7.1.3 should it work

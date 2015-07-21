@@ -7,6 +7,7 @@ package net.tn.examples.jackson;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+
 import org.codehaus.jackson.map.ObjectMapper;
 
 /**
@@ -35,10 +36,7 @@ public class JacksonTesting {
                 objects.add(new Integer(1));
                 objects.add(new String("test"));
                 objects.add(new Double(2.2));
-                objects.add(new Object() {
-                    String name = "Thomas";
-                    String zip = "66780";
-                    String age = "29";
+                objects.add(new Object() {                    
                 });
             }
         ;

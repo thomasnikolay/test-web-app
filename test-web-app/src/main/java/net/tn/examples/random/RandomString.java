@@ -4,8 +4,6 @@
  */
 package net.tn.examples.random;
 
-import java.math.BigInteger;
-import java.security.SecureRandom;
 import org.apache.commons.lang.RandomStringUtils;
 
 /**

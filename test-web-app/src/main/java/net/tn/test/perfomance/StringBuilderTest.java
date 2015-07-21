@@ -28,5 +28,6 @@ public class StringBuilderTest {
         long end = System.currentTimeMillis();
         System.out.println("time for concat = "+(mid-start)+"ms");
         System.out.println("time for StringBuilder = "+(end-mid)+"ms");
+        System.out.println(test);
     }
 }

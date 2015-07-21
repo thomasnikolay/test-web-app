@@ -5,6 +5,8 @@
  */
 package net.tn.examples.maps;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,5 +26,19 @@ public class Test {
         catch(InterruptedException e) {
           
         }
+        
+        Map<String, String> test2 = new HashMap<>();
+        
+        for (Map.Entry<String, String> entry : test2.entrySet()) {
+            String string = entry.getKey();
+            String string1 = entry.getValue();
+            
+        }
+        
+        Collection<String> myList = Arrays.asList("Hello","Java");
+        long countLongStrings = myList.stream().filter(element -> element.length() > 4).count();
+        
+        
+        
     }
 }

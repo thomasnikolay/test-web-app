@@ -21,6 +21,11 @@ public class RealySerializable {
         try {
             oos = new ObjectOutputStream(new FileOutputStream(new File("c:\\object.output")));
             oos.writeObject(new Serializable() {
+
+				/**
+				 * 
+				 */
+				private static final long serialVersionUID = 1L;
             });
         } finally {
             if (oos != null) {

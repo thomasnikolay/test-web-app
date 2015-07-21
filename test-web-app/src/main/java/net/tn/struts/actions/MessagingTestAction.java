@@ -12,18 +12,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import net.tn.examples.cache.inifinispan.CacheManager;
+
 import net.tn.examples.jms.Communicator;
 import net.tn.examples.jms.Message;
 import net.tn.examples.jms.MessageListener;
-import org.slf4j.LoggerFactory;
 
 /**
  *
  * @author tnikolay
  */
 public class MessagingTestAction {
-private static org.slf4j.Logger Logger = LoggerFactory.getLogger(CacheManager.class.getClass());
     private final static List<String> list = new ArrayList<>();
     private final static TestListener testListener = new TestListener();
     
@@ -83,5 +81,6 @@ private static org.slf4j.Logger Logger = LoggerFactory.getLogger(CacheManager.cl
     public static void main(String[] args) throws IOException {
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("C:\\test.object"));
         out.writeObject(new TestMessage("from: kirby time: "+new Date(), false));
+        out.close();
     }
 }

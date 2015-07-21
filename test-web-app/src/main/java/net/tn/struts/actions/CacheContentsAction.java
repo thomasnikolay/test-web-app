@@ -5,16 +5,14 @@
 package net.tn.struts.actions;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-
-
-import java.util.HashMap;
 import net.tn.examples.cache.inifinispan.CacheManager;
+
 import org.infinispan.Cache;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**

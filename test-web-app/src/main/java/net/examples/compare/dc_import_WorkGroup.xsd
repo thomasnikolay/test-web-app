@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- v01.00  13.09.2010  HButkova    init -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.gk-software.com/dc_import" xmlns="http://www.gk-software.com/dc_import" 
+		targetNamespace="http://www.gk-software.com/dc_import" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="WorkGroupData" type="WorkGroupDataType"/>
+	<xs:complexType name="WorkGroupDataType">
+		<xs:sequence>
+			<xs:element name="workGroupList" type="WorkGroupListType">
+				<xs:unique name="workGroupIDIsUnique">
+					<xs:selector xpath="tns:workGroup"/>
+					<xs:field xpath="tns:workGroupID"/>
+				</xs:unique>
+			</xs:element>
+			<xs:element name="resourceList" type="ResourceListType">
+				<xs:unique name="resourceIDIsUnique">
+					<xs:selector xpath="tns:resource"/>
+					<xs:field xpath="tns:resourceID"/>
+				</xs:unique>
+			</xs:element>
+			<xs:element name="workGroupResourceAccessList" type="WorkGroupResourceAcessListType">
+				<xs:unique name="workGroupResourceAccessIsUnique">
+					<xs:selector xpath="tns:workGroupResourceAccess"/>
+					<xs:field xpath="tns:resourceID"/>
+					<xs:field xpath="tns:workGroupID"/>
+				</xs:unique>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="schemaVersion" type="xs:string" use="required" fixed="01.00"/>
+	</xs:complexType>
+	<xs:complexType name="WorkGroupListType">
+		<xs:sequence>
+			<xs:element name="workGroup" type="WorkGroupType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResourceListType">
+		<xs:sequence>
+			<xs:element name="resource" type="ResourceType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WorkGroupResourceAcessListType">
+		<xs:sequence>
+			<xs:element name="workGroupResourceAccess" type="WorkGroupResourceAccessType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WorkGroupType">
+		<xs:sequence>
+			<xs:element name="workGroupID" type="WorkGroupIDType"/>
+			<xs:element name="description" type="DescriptionType" minOccurs="0"/>
+			<xs:element name="workGroupLevel" type="LevelType"/>
+			<xs:element name="deletableFlag" type="FlagType" minOccurs="0"/>
+			<xs:element name="messageWorkGroupLevel" type="LevelType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ResourceType">
+		<xs:sequence>
+			<xs:element name="resourceID" type="ResourceIDType"/>
+			<xs:element name="parentResourceID" type="ResourceIDType" minOccurs="0"/>
+			<xs:element name="description" type="DescriptionType" minOccurs="0"/>
+			<xs:element name="resourceLevel" type="LevelType"/>
+			<xs:element name="deletableFlag" type="FlagType" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="WorkGroupResourceAccessType">
+		<xs:sequence>
+			<xs:element name="workGroupID" type="WorkGroupIDType"/>
+			<xs:element name="resourceID" type="ResourceIDType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- ************************* base types ******************************** -->
+	<xs:complexType name="FlagType">
+		<xs:simpleContent>
+			<xs:extension base="xs:boolean"/>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="LevelType">
+		<xs:restriction base="xs:int"/>
+	</xs:simpleType>
+	<!-- ************************* restrictions ****************************** -->
+	<xs:simpleType name="WorkGroupIDType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DescriptionType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ResourceIDType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="60"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
