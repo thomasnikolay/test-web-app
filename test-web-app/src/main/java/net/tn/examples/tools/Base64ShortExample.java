@@ -17,7 +17,7 @@ public class Base64ShortExample {
 
     public static void main(String[] args) throws UnsupportedEncodingException {
         Base64 b = new Base64();
-        System.out.println(b.encodeAsString(("thomasnikolay" + ":" + "P@$$w0rd").getBytes("UTF-8")));
+        
 
     }
 }

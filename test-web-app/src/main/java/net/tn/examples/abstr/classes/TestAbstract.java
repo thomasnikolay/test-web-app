@@ -11,5 +11,8 @@ package net.tn.examples.abstr.classes;
  * @author tnikolay
  */
 public class TestAbstract extends AbstractTop{
+        public static void main(String[] args) {
+        new String("Some Bar");
+    }
     
 }

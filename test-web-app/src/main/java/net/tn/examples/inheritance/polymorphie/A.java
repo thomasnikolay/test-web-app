@@ -12,8 +12,21 @@ package net.tn.examples.inheritance.polymorphie;
  */
 public class A {
     
+    private String string;
+    
     public void print(){
-        System.out.println("A");
+        System.out.println(string);
     }
+
+    public String getString() {
+        return string;
+    }
+
+    public void setString(String string) {
+        this.string = string;
+    }
+    
+    
+    
     
 }

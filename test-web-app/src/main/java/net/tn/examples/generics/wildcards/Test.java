@@ -4,22 +4,28 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
+package net.tn.examples.generics.wildcards;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author tnikolay
  */
 public class Test {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
+        List<Parent> a = new ArrayList<>();
+        List<? super Parent> leftSublist = leftSublist();
         
-        System.out.println(test);
+        leftSublist.add(new Child());
+        
+    }
+    
+    public static List<? super Parent> leftSublist( ){
+        return null;
+        
     }
     
 }

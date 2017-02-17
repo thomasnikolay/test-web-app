@@ -4,22 +4,20 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
+package net.tn.examples.file;
 
-import java.util.ArrayList;
+import java.io.File;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class FileTest {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+        File file = new File("d:/temp.dat");       
+        file.createNewFile();
+        System.out.println(file.exists());
     }
     
 }

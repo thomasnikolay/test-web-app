@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WPUWBW01 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="WPUWBW01.xsd">
+	  <IDOC BEGIN="1">
+		    <EDI_DC40 SEGMENT="1">
+			      <TABNAM></TABNAM>
+			      <DOCREL></DOCREL>
+			      <DIRECT>1</DIRECT>
+			      <IDOCTYP>WPUWBW01</IDOCTYP>
+			      <MESTYP>WPUWBW</MESTYP>
+			      <MESCOD>GK</MESCOD>
+			      <SNDPOR></SNDPOR>
+			      <SNDPRT>KU</SNDPRT>
+			      <SNDPRN>0013563059</SNDPRN>
+			      <RCVPOR></RCVPOR>
+			      <RCVPRT>KU</RCVPRT>
+			      <RCVPRN>0013563059</RCVPRN>
+		    </EDI_DC40>
+		    <E1WPG01 SEGMENT="1">
+			      <BELEGDATUM>20150127</BELEGDATUM>
+			      <BONNUMMER>0104000001</BONNUMMER>
+			      <KASSIERER>WF_STORE05</KASSIERER>
+			      <E1WPG02 SEGMENT="1">
+				        <QUALVORG></QUALVORG>
+				        <REFERENZNR></REFERENZNR>
+				        <LITEM></LITEM>
+				        <QUALARTNR>006</QUALARTNR>
+				        <ARTNR>0063756</ARTNR>
+				        <BEWART>911</BEWART>
+				        <MEINH>PCE</MEINH>
+				        <MENGE>80.000</MENGE>
+				        <WERT></WERT>
+				        <LGORT>0001</LGORT>
+				        <ELIKZ></ELIKZ>
+				        <GRUND>0002</GRUND>
+			      </E1WPG02>
+		    </E1WPG01>
+	  </IDOC>
+</WPUWBW01>

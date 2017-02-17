@@ -4,23 +4,24 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.array.things;
-
-import java.util.Arrays;
+package net.tn.examples.exceptions;
 
 /**
  *
  * @author tnikolay
  */
-public class IntArray {
+public class TestExecption {
     
     public static void main(String[] args) {
-        int[] test = {0,1,2};
         
+        try{
+            throw new Exception();
+        }catch(IllegalArgumentException ex){
+            System.out.println("1");
+        } catch (Exception e){
+            System.out.println("2");
+        }
         
-        
-        System.arraycopy(args, srcPos, test, destPos, length);
-        System.out.println(Arrays.toString(test));
         
     }
     

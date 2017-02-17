@@ -4,22 +4,25 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
+package net.tn.examples.lambda.expression;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class LambdaExpression {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
         
-        System.out.println(test);
+        List<String> list = new ArrayList<>();
+        list.add("abc");
+        list.add("abcdef");
+        list.add("a12");
+        
+        list.forEach((String element) -> System.out.println(element));
     }
     
 }

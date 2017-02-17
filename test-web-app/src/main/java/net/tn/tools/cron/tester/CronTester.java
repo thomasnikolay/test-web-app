@@ -9,7 +9,7 @@ import org.quartz.CronExpression;
 public class CronTester {
 
     public static void main(String[] args) throws ParseException {
-        final String expression = "0 0 12 1/2 * ?";
+        final String expression = "0 24 14 * * ?";
         final CronExpression cronExpression = new CronExpression(expression);
 
         Date nextValidDate1 = new Date();        

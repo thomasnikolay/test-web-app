@@ -4,22 +4,18 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
+package net.tn.examples.soundex;
 
-import java.util.ArrayList;
+import org.apache.commons.codec.language.Soundex;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class SoundexTest {
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+        Soundex e = new Soundex();
+        System.out.println(e.soundex("Thomas"));
     }
     
 }

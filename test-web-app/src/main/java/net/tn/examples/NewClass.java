@@ -4,22 +4,15 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
-
-import java.util.ArrayList;
+package net.tn.examples;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class NewClass {
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+        System.out.println(new String[]{null, null});
     }
     
 }

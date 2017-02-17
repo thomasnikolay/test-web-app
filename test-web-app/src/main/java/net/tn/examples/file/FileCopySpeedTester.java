@@ -17,7 +17,11 @@ public class FileCopySpeedTester {
 
     public static void main(String[] args) throws InterruptedException, IOException {
 
-        String inFile = "D:\\TEMP\\dump_mwb_1";
+        
+        for (int i = 0; i < 4; i++) {            
+            
+        
+        String inFile = "D:\\TEMP\\dump_mwb";
         String outFile = "D:\\TEMP\\dump_mwb_1_copy_";
 
         File source;
@@ -31,6 +35,8 @@ public class FileCopySpeedTester {
         start = System.currentTimeMillis();
         copyFileUsingChannel(source, dest);
         System.out.println("Time taken by Channel Copy = " + (System.currentTimeMillis() - start));
+        
+        Thread.sleep(20000);
 
         // copy file conventional way using Stream
         source = new File(inFile);
@@ -39,6 +45,8 @@ public class FileCopySpeedTester {
         copyFileUsingStream(source, dest);
         System.out.println("Time taken by Stream Copy = " + (System.currentTimeMillis() - start));
 
+        Thread.sleep(20000);
+        
         // copy files using apache commons io
         source = new File(inFile);
         dest = new File(outFile + "3");
@@ -46,12 +54,18 @@ public class FileCopySpeedTester {
         copyFileUsingApacheCommonsIO(source, dest);
         System.out.println("Time taken by Apache Commons IO Copy = " + (System.currentTimeMillis() - start));
 
+        Thread.sleep(20000);
+        
         // using Java 7 Files class
         source = new File(inFile);
         dest = new File(outFile + "4");
         start = System.currentTimeMillis();
         copyFileUsingJava7Files(source, dest);
         System.out.println("Time taken by Java7 Files Copy = " + (System.currentTimeMillis() - start));
+        
+        Thread.sleep(20000);
+        
+        }
     }
 
     private static void copyFileUsingApacheCommonsIO(File source, File dest) throws IOException {

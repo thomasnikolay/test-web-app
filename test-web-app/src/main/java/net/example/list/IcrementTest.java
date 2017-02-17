@@ -4,22 +4,21 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
-
-import java.util.ArrayList;
+package net.example.list;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class IcrementTest {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
+        int i = 1;
+        int j = i++ + ++i;
+        System.out.println(j);
         
-        System.out.println(test);
+                
+        throw new Error();
     }
     
 }

@@ -4,22 +4,16 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
-
-import java.util.ArrayList;
+package net.examples.DoubleTest;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class DoubleTest {
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
+        Double d = Double.valueOf("2.2");
         
-        System.out.println(test);
+        System.out.println(d);
     }
-    
 }

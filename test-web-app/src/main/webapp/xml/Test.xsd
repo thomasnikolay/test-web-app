@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:bsp="http://de.wikipedia.org/wiki/XML_Schema#Beispiel"
+        targetNamespace="http://de.wikipedia.org/wiki/XML_Schema#Beispiel"
+        elementFormDefault="qualified">
+  <element name="doc">
+    <complexType>
+      <sequence>
+        <element ref="bsp:head"/>
+        <element name="body" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="head">
+    <complexType>
+      <sequence>
+        <element name="title" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

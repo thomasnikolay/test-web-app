@@ -4,22 +4,22 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
-
-import java.util.ArrayList;
+package net.tn.examples.enums;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
-    public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+public class AllValuesToString {
+    
+    public enum Test{
+        TEST_1, Test2
     }
     
+    public static void main(String[] args) {
+        
+        for (Test test : Test.values()) {
+            System.out.println(test.toString());
+        }
+    }
 }

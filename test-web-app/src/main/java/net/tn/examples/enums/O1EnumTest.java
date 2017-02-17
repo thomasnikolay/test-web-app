@@ -4,22 +4,16 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
-
-import java.util.ArrayList;
+package net.tn.examples.enums;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class O1EnumTest {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+        System.out.println(O1Enum.getSubsystemTypeByIdentifier("pos-lob"));
     }
     
 }

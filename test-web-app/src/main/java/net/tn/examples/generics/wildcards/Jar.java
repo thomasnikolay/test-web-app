@@ -4,18 +4,12 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.inheritance.polymorphie;
+package net.tn.examples.generics.wildcards;
 
 /**
  *
  * @author tnikolay
  */
-public class C {
-    public static void main(String[] args) {        
-        B b = new B();
-        b.setString("ahhhh");
-        b.print();
-        
-    }
+public class Jar<T extends Parent> {
     
 }

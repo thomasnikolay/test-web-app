@@ -4,22 +4,19 @@
  * and open the template in the editor.
  */
 
-package net.tn.examples.doublebrace.init;
+package net.tn.examples;
 
-import java.util.ArrayList;
+import java.nio.charset.Charset;
+import java.util.Arrays;
 
 /**
  *
  * @author tnikolay
  */
-public class Test {
+public class HelloWorldByter {
+    
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<String>(){{
-            add("Test");
-            add("Test2");
-        }};
-        
-        System.out.println(test);
+        System.out.println(Arrays.toString("UTF-8".getBytes(Charset.forName("UTF-8"))));
     }
     
 }
