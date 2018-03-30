@@ -17,8 +17,15 @@ public abstract class Abstract {
 
     public abstract String tueSonstwas();
 
-
+    final void f(){}
+    
 
     
+    static void h(){}
+    
+    
+    public static void main(String[] args) {
+        
+    }
 
 }
