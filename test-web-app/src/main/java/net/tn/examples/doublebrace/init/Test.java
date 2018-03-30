@@ -18,6 +18,8 @@ public class Test {
             add("Test");
             add("Test2");
         }};
+        
+        System.out.println(test);
     }
     
 }

@@ -25,7 +25,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
  */
 public class MainTest {
     public static void main(String[] args) throws NotFoundException, CannotCompileException, NoSuchFieldException, InstantiationException, IllegalAccessException, NoSuchMethodException, IllegalArgumentException, InvocationTargetException {
-Map<String, Class<?>> props = new HashMap<String, Class<?>>();
+        Map<String, Class<?>> props = new HashMap<String, Class<?>>();
 	props.put("foo", Integer.class);
 	props.put("bar", String.class);
 

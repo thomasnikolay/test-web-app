@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4jMob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.gk-software.com/log4jMob.xsd" 
+          xsi:schemaLocation="http://www.gk-software.com/log4jMob.xsd log4jMob.xsd">      
+  <Logfile name="_sandbox/vto/mobile_log.txt" />
+  <filelogger ending="&apos;.&apos;yyyy-MM-dd" pattern="%d{dd MMM yyyy HH:mm:ss,SSS} [%-15t] %-5p [%-30c{1}] %m%n" />
+  
+  <filter level="WARN" pattern="org.apache" />
+  <filter level="WARN" pattern="httpclient.wire" />
+   <filter level="DEBUG" pattern="httpclient.wire.header" /> 
+   <filter level="DEBUG" pattern="org.apache.commons.httpclient" /> 
+  <filter level="WARN" pattern="com.gk_software.mc.gui.widgets" />
+  <filter level="WARN" pattern="com.gk_software.core.mobile.gui.impl.gkmde" />
+  <filter level="WARN" pattern="com.gk_software.core.mobs.gui.impl.gkmde" />
+  <filter level="WARN" pattern="ResourceItems" />
+  <filter level="WARN" pattern="com.gk_software.core.mobs.spring" />
+  <filter level="WARN" pattern="gk" />
+  <filter level="INFO" pattern="com.gk_software" />
+  <filter level="WARN" pattern="org.springframework" />
+</log4jMob>

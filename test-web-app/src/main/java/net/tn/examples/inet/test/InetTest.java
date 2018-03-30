@@ -16,8 +16,20 @@ import java.net.UnknownHostException;
 public class InetTest {
     
     public static void main(String[] args) throws UnknownHostException {
+        
         String adresse = InetAddress.getByName("gk-software.com").toString();
         System.out.println(adresse);
+        
+        InetAddress add = InetAddress.getByName("127.0.0.1");
+        
+        byte[] address = add.getAddress();
+            
+        for (int i = 0; i < address.length; i++) {
+            byte b = address[i];
+            System.out.println(b);
+            
+        }
+        
     }
     
 }

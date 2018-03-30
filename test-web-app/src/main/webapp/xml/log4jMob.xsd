@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           targetNamespace="http://www.gk-software.com/log4jMob.xsd"
+           xmlns="http://www.gk-software.com/log4jMob.xsd"
+elementFormDefault="qualified">
+    <xs:element name="log4jMob">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Logfile">
+                    <xs:complexType>
+                        <xs:attribute name="name" use="required" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="filelogger">
+                    <xs:complexType>
+                        <xs:attribute name="pattern" use="required" type="xs:string"/>
+                        <xs:attribute name="ending" use="required" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="consolelogger" minOccurs="0">
+                    <xs:complexType>
+                        <xs:attribute name="pattern" use="required" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="socketlogger" minOccurs="0">
+                    <xs:complexType>
+                        <xs:attribute name="port" use="required" type="xs:integer"/>
+                        <xs:attribute name="pattern" use="required" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="filter" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="pattern" use="required" type="xs:string"/>
+                        <xs:attribute name="level" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="TRACE"/>
+                                    <xs:enumeration value="DEBUG"/>
+                                    <xs:enumeration value="INFO"/>
+                                    <xs:enumeration value="WARN"/>
+                                    <xs:enumeration value="ERROR"/>
+                                    <xs:enumeration value="FATAL"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

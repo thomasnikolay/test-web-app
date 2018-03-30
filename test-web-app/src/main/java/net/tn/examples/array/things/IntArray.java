@@ -17,6 +17,9 @@ public class IntArray {
     public static void main(String[] args) {
         int[] test = {0,1,2};
         
+        
+        
+        System.arraycopy(args, srcPos, test, destPos, length);
         System.out.println(Arrays.toString(test));
         
     }

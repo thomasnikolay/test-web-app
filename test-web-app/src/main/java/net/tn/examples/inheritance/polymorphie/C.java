@@ -11,11 +11,11 @@ package net.tn.examples.inheritance.polymorphie;
  * @author tnikolay
  */
 public class C {
-    public static void main(String[] args) {
-        A a = new A();
+    public static void main(String[] args) {        
         B b = new B();
-        a = b;
-        a.print();
+        b.setString("ahhhh");
+        b.print();
+        
     }
     
 }

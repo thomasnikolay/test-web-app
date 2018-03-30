@@ -16,7 +16,7 @@ import java.io.OutputStream;
  */
 public class CanWriteTest {
 
-    public static void main(String[] args) throws IOException{
+    public  static void main(String[] args) throws IOException{
         try {
             final File testFile = new File("D:\\not_existing_file");
             OutputStream os = new FileOutputStream(testFile);
