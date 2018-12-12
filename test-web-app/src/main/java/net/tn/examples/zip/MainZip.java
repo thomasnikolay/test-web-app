@@ -30,7 +30,6 @@ public class MainZip {
             decompresser.setInput(output2);
             
             Socket socket = new Socket("localhost", 9292);
-            socket..
 
             System.out.println("a:" + new String(output2));
 

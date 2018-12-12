@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.issues.actions;
+package net.tn.examples.issues.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
 import java.util.Date;
@@ -22,7 +22,7 @@ public class Sup16759Smart extends ActionSupport implements ServletRequestAware 
     private StringBuilder outputString = new StringBuilder();
     private static int counter = 0;
     private boolean startTranscode = false;
-    private static final Logger log = net.tn.issues.actions.Logger.getLogger();
+    private static final Logger log = Logger.getLogger();
 
     @Override
     public void setServletRequest(HttpServletRequest hsr) {

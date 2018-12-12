@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package net.examples.javassist;
+package net.tn.examples.javassist;
 
 import java.io.Serializable;
 import java.lang.reflect.InvocationTargetException;

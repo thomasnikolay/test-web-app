@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.exmaples.utf8;
+package net.tn.examples.utf8;
 
 import java.io.File;
 import java.io.FileOutputStream;

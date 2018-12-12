@@ -1,4 +1,4 @@
-package net.examples.simpledateformat.test;
+package net.tn.examples.simpledateformat.test;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

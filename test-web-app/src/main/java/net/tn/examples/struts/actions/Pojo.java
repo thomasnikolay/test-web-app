@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.struts.actions;
+package net.tn.examples.struts.actions;
 
 import java.io.Serializable;
 

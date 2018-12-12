@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package net.examples.math;
+package net.tn.examples.math;
 
 /**
  *

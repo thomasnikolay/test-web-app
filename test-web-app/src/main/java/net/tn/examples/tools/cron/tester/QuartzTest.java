@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.tools.cron.tester;
+package net.tn.examples.tools.cron.tester;
 
 import java.util.Date;
 import java.util.logging.Level;

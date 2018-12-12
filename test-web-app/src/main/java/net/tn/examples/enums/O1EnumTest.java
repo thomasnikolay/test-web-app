@@ -13,7 +13,6 @@ package net.tn.examples.enums;
 public class O1EnumTest {
     
     public static void main(String[] args) {
-        System.out.println(O1Enum.getSubsystemTypeByIdentifier("pos-lob"));
     }
     
 }

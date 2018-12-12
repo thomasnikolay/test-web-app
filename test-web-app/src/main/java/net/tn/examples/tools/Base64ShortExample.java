@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.tools;
+package net.tn.examples.tools;
 
 import java.io.UnsupportedEncodingException;
 

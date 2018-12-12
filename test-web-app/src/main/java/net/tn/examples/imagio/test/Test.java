@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.imagio.test;
+package net.tn.examples.imagio.test;
 
 /**
  *

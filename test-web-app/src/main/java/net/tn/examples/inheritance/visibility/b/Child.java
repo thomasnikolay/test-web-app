@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package net.examples.inheritance.visibility.b;
+package net.tn.examples.inheritance.visibility.b;
 
-import net.examples.inheritance.visibility.a.Parent;
+import net.tn.examples.inheritance.visibility.a.Parent;
 
 /**
  *

@@ -1,4 +1,4 @@
-package net.examples.url;
+package net.tn.examples.url;
 
 import java.net.URI;
 

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package net.patterns.observer;
+package net.tn.pattern.observer;
 
 /**
  *

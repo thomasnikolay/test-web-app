@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package net.tn.tools;
+package net.tn.examples.tools;
 
 import java.text.Collator;
 import java.util.Locale;

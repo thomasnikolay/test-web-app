@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.tn.issues.actions;
+package net.tn.examples.issues.actions;
 
 import java.io.File;
 import java.io.FileNotFoundException;

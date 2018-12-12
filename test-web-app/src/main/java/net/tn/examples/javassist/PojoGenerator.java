@@ -1,4 +1,4 @@
-package net.examples.javassist;
+package net.tn.examples.javassist;
 
 import java.io.Serializable;
 import java.util.Iterator;

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package net.tn.exmaples.wrapper;
+package net.tn.examples.wrapper;
 
 /**
  *

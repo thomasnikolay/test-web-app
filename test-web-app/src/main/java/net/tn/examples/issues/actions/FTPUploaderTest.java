@@ -1,4 +1,4 @@
-package net.tn.issues.actions;
+package net.tn.examples.issues.actions;
 
 /*
  * To change this template, choose Tools | Templates

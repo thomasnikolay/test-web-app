@@ -1,4 +1,4 @@
-package net.tn.test.perfomance;
+package net.tn.examples.test.perfomance;
 
 import java.util.ArrayList;
 import java.util.HashSet;
